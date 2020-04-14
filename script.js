@@ -54,16 +54,57 @@ searchbtn.addEventListener('click', ()=>{
 }
 );
 
+
+
+
 // -----------------------SWIPER-------------------------------
 
 var swiper = new Swiper('.swiper-container', {
-   slidesPerView: 3,
-   spaceBetween: 30,
-   slidesPerGroup: 3,
-   loop: true,
+   loop: false,
+
    loopFillGroupWithBlank: true,
+
    pagination: {
      el: '.swiper-pagination',
      clickable: true,
    },
+
+   breakpoints: {
+
+
+       // when window width is <= 499px
+      499: {
+         slidesPerGroup: 1,
+          slidesPerView: 1,
+          spaceBetween: 0,
+      },
+      // when window width is <= 600px
+      600: {
+          slidesPerView: 2,
+          spaceBetween: 30,
+      },
+      
+      // when window width is <= 999px
+      999: {
+         slidesPerView: 3,
+         spaceBetween: 30,
+         slidesPerGroup: 3,
+      }
+      
+  }
+
  });
+
+
+
+ //--------------------Media Query for SWIPER ------------------
+
+
+const mediaSm = matchMedia('(min-width: 600px)');
+
+mediaSm.addEventListener("change", function(){
+
+   swiper.SlidesPerView = 1;
+   swiper.slidesPerGroup = 1;
+
+}) 
