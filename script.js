@@ -4,24 +4,27 @@
 window.addEventListener("scroll", function (event) {
    let headerDiv = document.getElementById('nav');
    let spinner = document.querySelectorAll('.spinner');
+   let logo = this.document.getElementById('logoPlaceholder');
 
 
    if (window.pageYOffset > 0){
       headerDiv.style.backgroundColor="rgba(0, 0, 0, 0.3)";
       headerDiv.children[0].style.color = 'white';
-      headerDiv.children[2].style.color = 'white';
       headerDiv.children[3].style.color = 'white';
+      headerDiv.children[4].style.color = 'white';
       for (i=0; i < spinner.length; i++){
          spinner[i].style.backgroundColor='white'
       };
+      logo.style.color = 'white';
    }else{
-      headerDiv.style.backgroundColor="rgba(255, 255, 255, 0.6)";
+      headerDiv.style.backgroundColor="rgba(255, 255, 255, 0.4)";
       headerDiv.children[0].style.color = 'black';
-      headerDiv.children[2].style.color = 'black';
       headerDiv.children[3].style.color = 'black';
+      headerDiv.children[4].style.color = 'black';
       for (i=0; i < spinner.length; i++){
          spinner[i].style.backgroundColor='black'
       };
+      logo.style.color = 'black';
    }
 });
 
@@ -40,7 +43,7 @@ checkbox.addEventListener('click', function(){
    }
 });
 
-//-----------------------Searchbar playaround------------------
+//-----------------------Searchbar Toggle------------------
 
 let searchbtn = document.getElementById('searchIcon');
 let searchbar = document.getElementsByClassName('search-box')[0];
@@ -53,9 +56,6 @@ searchbtn.addEventListener('click', ()=>{
    }
 }
 );
-
-
-
 
 // -----------------------SWIPER-------------------------------
 
