@@ -28,7 +28,7 @@ body {
 }
 #logoPlaceholder{
     font-family: 'East Sea Dokdo', cursive;
-    font-size: 45px;
+    font-size: 42px;
     font-weight: 400;
     visibility: hidden;
     transition: all 0.3s;
