@@ -13,7 +13,7 @@
     <link href="https://fonts.googleapis.com/css2?family=East+Sea+Dokdo&display=swap" rel="stylesheet">
 
 
-    <title>Seafresh FishMarket</title>
+    <title>Shopping Cart</title>
 </head>
 
 <body>
@@ -28,18 +28,19 @@
             </label>
             <label id="menuLabel" for="openSidebarMenu">Menu</label>
         </div>
+
         <h2 id="logoPlaceholder">Seafresh Fishmarket</h2>
         <form action="" class="search-box">
             <input type="text" class="text search-input" placeholder="Type here to search..." />
         </form>
         <label for="search-input" id="searchIcon" href=""><i class="fas fa-search"></i></label>
-        <a href=""><i class="fas fa-shopping-cart"></i></a>
+        <a href="cart.html" target="_blank"><i class="fas fa-shopping-cart"></i></a>
     </div>
 
     <div id="sidebarMenu" class="">
         <ul class="sidebarMenuInner">
-            <li><a href="" target="_blank">Link1</a></li>
-            <li><a href="" target="_blank">Link2</a></li>
+            <li><a href="index.html" target="">Home</a></li>
+            <li><a href="cart.html" target="_blank">Shopping Cart</a></li>
             <li><a href="" target="_blank">Link3</a></li>
             <li><a href="" target="_blank">About Us</a></li>
             <li><a href="" target="_blank">Contact</a></li>
@@ -51,12 +52,12 @@
             <li>
                 <h4>Product Categories</h4>
             </li>
-            <li><a href="" target="_blank">Whole</a></li>
-            <li><a href="" target="_blank">Fillet</a></li>
-            <li><a href="" target="_blank">Crustaceans</a></li>
-            <li><a href="" target="_blank">Shellfish</a></li>
-            <li><a href="" target="_blank">Caviar</a></li>
-            <li><a href="" target="_blank">Sushi</a></li>
+            <li><a href="shop.html" target="_blank">Whole</a></li>
+            <li><a href="shop.html" target="_blank">Fillet</a></li>
+            <li><a href="shop.html" target="_blank">Crustaceans</a></li>
+            <li><a href="shop.html" target="_blank">Shellfish</a></li>
+            <li><a href="shop.html" target="_blank">Caviar</a></li>
+            <li><a href="shop.html" target="_blank">Sushi</a></li>
 
         </ul>
 
@@ -66,171 +67,223 @@
 
     <div class="main-content">
 
+
         <div class="banner"></div>
 
         <div class="productMenu">
 
-            <a href="" target="_self" alt="Whole Fish"><img src="Icons/004-fish.png">Whole</a>
-            <a href="" target="_self" alt="Fish Fillets"><img src="Icons/008-sushi-2.png">Fillet</a>
-            <a href="" target="_self" alt="Crustaceans"><img src="Icons/001-mussel.png">Crustaceans</a>
-            <a href="" target="_self" alt="Shellfish"><img src="Icons/002-crab.png">Shellfish</a>
-            <a href="" target="_self" alt="Caviar"><img src="Icons/007-caviar.png">Caviar</a>
-            <a href="" target="_self" alt="Sushi"><img src="Icons/006-sushi-1.png">Sushi</a>
+            <a href="shop.html" target="_self" alt="Whole Fish"><img src="Icons/004-fish.png">Whole</a>
+            <a href="shop.html" target="_self" alt="Fish Fillets"><img src="Icons/008-sushi-2.png">Fillet</a>
+            <a href="shop.html" target="_self" alt="Crustaceans"><img src="Icons/001-mussel.png">Crustaceans</a>
+            <a href="shop.html" target="_self" alt="Shellfish"><img src="Icons/002-crab.png">Shellfish</a>
+            <a href="shop.html" target="_self" alt="Caviar"><img src="Icons/007-caviar.png">Caviar</a>
+            <a href="shop.html" target="_self" alt="Sushi"><img src="Icons/006-sushi-1.png">Sushi</a>
 
         </div>
 
-        <div class="shopping-cart">
-            <!-- Title -->
-            <div class="cart-title">
-                Shopping cart
-                <a id="return-store-btn" href="">Return to Store <i class="fas fa-arrow-alt-circle-right"></i></a>
+
+        <div class="cart-container ">
+
+            <div class="shopping-cart">
+                <!-- Title -->
+                <div class="cart-title">
+                    Shopping cart
+                </div>
+
+                <!-- Product #1 -->
+                <div class="cart-item">
+
+                    <div class="cart-item-button-wrapper">
+                        <span class="cart-item-delete-btn"><i class="fas fa-times-circle"></i></span>
+                    </div>
+
+                    <div class="cart-item-image">
+                        <img src="images/Snapper-Medium-Whole.jpg" alt="" />
+                    </div>
+
+                    <div class="cart-product-description">
+                        <span class="item-category">Red Emperor</span>
+                        <span></span>
+                        <span></span>
+                    </div>
+
+                    <div class="cart-item-quantity">
+                        <button class="minus-btn" type="button" name="button">
+                            <i class="far fa-minus-square"></i>
+                        </button>
+                        <input type="number" name="quantitiy-btn" value="1">
+                        <button class="plus-btn" type="button" name="button">
+                            <i class="far fa-plus-square"></i>
+                        </button>
+                    </div>
+
+                    <span class="cart-item-price">$50.00</span>
+                </div>
+
+                <!-- Product #1 -->
+                <div class="cart-item flex-center-style">
+
+                    <div class="cart-item-button-wrapper">
+                        <span class="cart-item-delete-btn"><i class="fas fa-times-circle"></i></span>
+                    </div>
+
+                    <div class="cart-item-image">
+                        <img src="images/Snapper-Medium-Whole.jpg" alt="" />
+                    </div>
+
+                    <div class="cart-product-description">
+                        <span class="item-category">Red Emperor</span>
+                        <span></span>
+                        <span></span>
+                    </div>
+
+                    <div class="cart-item-quantity">
+                        <button class="minus-btn" type="button" name="button">
+                            <i class="far fa-minus-square"></i>
+                        </button>
+                        <input type="number" name="quantitiy-btn" value="1">
+                        <button class="plus-btn" type="button" name="button">
+                            <i class="far fa-plus-square"></i>
+                        </button>
+                    </div>
+
+                    <span class="cart-item-price">$50.00</span>
+                </div>
+
+                <!-- Product #1 -->
+                <div class="cart-item flex-center-style">
+
+                    <div class="cart-item-button-wrapper">
+                        <span class="cart-item-delete-btn"><i class="fas fa-times-circle"></i></span>
+                    </div>
+
+                    <div class="cart-item-image">
+                        <img src="images/Snapper-Medium-Whole.jpg" alt="" />
+                    </div>
+
+                    <div class="cart-product-description">
+                        <span class="item-category">Red Emperor</span>
+                        <span></span>
+                        <span></span>
+                    </div>
+
+                    <div class="cart-item-quantity">
+                        <button class="minus-btn" type="button" name="button">
+                            <i class="far fa-minus-square"></i>
+                        </button>
+                        <input type="number" name="quantitiy-btn" value="1">
+                        <button class="plus-btn" type="button" name="button">
+                            <i class="far fa-plus-square"></i>
+                        </button>
+                    </div>
+
+                    <span class="cart-item-price">$50.00</span>
+                </div>
+
+                <!-- Product #1 -->
+                <div class="cart-item flex-center-style">
+
+                    <div class="cart-item-button-wrapper">
+                        <span class="cart-item-delete-btn"><i class="fas fa-times-circle"></i></span>
+                    </div>
+
+                    <div class="cart-item-image">
+                        <img src="images/Snapper-Medium-Whole.jpg" alt="" />
+                    </div>
+
+                    <div class="cart-product-description">
+                        <span class="item-category">Red Emperor</span>
+                        <span></span>
+                        <span></span>
+                    </div>
+
+                    <div class="cart-item-quantity">
+                        <button class="minus-btn" type="button" name="button">
+                            <i class="far fa-minus-square"></i>
+                        </button>
+                        <input type="number" name="quantitiy-btn" value="1">
+                        <button class="plus-btn" type="button" name="button">
+                            <i class="far fa-plus-square"></i>
+                        </button>
+                    </div>
+
+                    <span class="cart-item-price">$50.00</span>
+                </div>
+
+
+
+                <div class="total-section">
+                    <span>Total: </span>
+                    <span class="total-price">$200.00</span>
+
+                </div>
+
             </div>
 
-            <!-- Product #1 -->
-            <div class="item flex-center-style">
-
-                <div class="button-wrapper">
-                    <span class="delete-btn"><i class="fas fa-times-circle"></i></span>
+            <div class="delivery-details">
+                <!-- Title -->
+                <div class="cart-title">
+                    Delivery options
                 </div>
 
-                <div class="image">
-                    <img src="images/Snapper-Medium-Whole.jpg" alt="" />
-                </div>
+                <form id="delivery-form" class="delivery-form flex-center-style" action="post">
 
-                <div class="description">
-                    <span><strong></strong>Red Emperor</span>
-                    <span></span>
-                    <span></span>
-                </div>
+                    <h3>Customer Details</h3>
 
-                <div class="quantity">
-                    <button class="minus-btn" type="button" name="button">
-                        <i class="far fa-minus-square"></i>
-                    </button>
-                    <input type="number" name="quantitiy-btn" value="1">
-                    <button class="plus-btn" type="button" name="button">
-                        <i class="far fa-plus-square"></i>
-                    </button>
-                </div>
+                    <label for="fname">Full Name:</label>
+                    <input type="text" id="fname" name="firstname">
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email">
+                    <label for="phone number">Phone number:</label>
+                    <input type="number" id="phone-number" name="phone-number">
 
-                <div class="total-price">$50.00</div>
+                    <h3>Billing Address</h3>
+
+
+
+                    <label for="adr">Address:</label>
+                    <input type="text" id="adr" name="address">
+                    <label for="city">City:</label>
+                    <input type="text" id="city" name="city">
+                    <label for="state">State:</label>
+                    <input type="text" id="state" name="state">
+                    <label for="postcode">Post-code:</label>
+                    <input type="number" id="pcode" name="postcode">
+
+
+
+                    <div class="delivery-radios">
+
+                        <div class="pick-up-box">
+                            <input type="radio" name="delivery-method" id="pickup" value="1">
+                            <label for="pickup">Pick-up</label>
+                        </div>
+
+                        <div class="delivery-box">
+                            <input type="radio" name="delivery-method" id="delivery" checked>
+                            <label for="delivery">Delivery</label>
+                        </div>
+
+                    </div>
+
+                    <div class="checkout-buttons">
+                        <label for="checkout-btn" class="checkout flex-center-style">
+                            <input type="submit" value="Checkout" class="btn" name="checkout-btn">
+                        </label>
+
+                        <div class="cont-shopping flex-center-style">
+                            <a href="">Continue shopping <i class="fas fa-arrow-alt-circle-right"></i></i></a>
+                        </div>
+
+                    </div>
+                </form>
             </div>
 
-            <!-- Product #2 -->
-            <div class="item flex-center-style">
 
-                <div class="button-wrapper">
-                    <span class="delete-btn"><i class="fas fa-times-circle"></i></span>
-                </div>
 
-                <div class="image">
-                    <img src="images/Snapper-Medium-Whole.jpg" alt="" />
-                </div>
-
-                <div class="description">
-                    <span><strong></strong>Red Emperor</span>
-                    <span></span>
-                    <span></span>
-                </div>
-
-                <div class="quantity">
-                    <button class="minus-btn" type="button" name="button">
-                        <i class="far fa-minus-square"></i>
-                    </button>
-                    <input type="number" name="quantitiy-btn" value="1">
-                    <button class="plus-btn" type="button" name="button">
-                        <i class="far fa-plus-square"></i>
-                    </button>
-                </div>
-
-                <div class="total-price">$50.00</div>
-
-            </div>
-
-            <!-- Product #2 -->
-
-            <div class="item flex-center-style">
-
-                <div class="button-wrapper">
-                    <span class="delete-btn"><i class="fas fa-times-circle"></i></span>
-                </div>
-
-                <div class="image">
-                    <img src="images/Snapper-Medium-Whole.jpg" alt="" />
-                </div>
-
-                <div class="description">
-                    <span><strong></strong>Red Emperor</span>
-                    <span></span>
-                    <span></span>
-                </div>
-
-                <div class="quantity">
-                    <button class="minus-btn" type="button" name="button">
-                        <i class="far fa-minus-square"></i>
-                    </button>
-                    <input type="number" name="quantitiy-btn" value="1">
-                    <button class="plus-btn" type="button" name="button">
-                        <i class="far fa-plus-square"></i>
-                    </button>
-                </div>
-
-                <div class="total-price">$50.00</div>
-
-            </div>
-
-<!-- Product #2 -->
-            <div class="item flex-center-style">
-
-                <div class="button-wrapper">
-                    <span class="delete-btn"><i class="fas fa-times-circle"></i></span>
-                </div>
-
-                <div class="image">
-                    <img src="images/Snapper-Medium-Whole.jpg" alt="" />
-                </div>
-
-                <div class="description">
-                    <span><strong></strong>Red Emperor</span>
-                    <span></span>
-                    <span></span>
-                </div>
-
-                <div class="quantity">
-                    <button class="minus-btn" type="button" name="button">
-                        <i class="far fa-minus-square"></i>
-                    </button>
-                    <input type="number" name="quantitiy-btn" value="1">
-                    <button class="plus-btn" type="button" name="button">
-                        <i class="far fa-plus-square"></i>
-                    </button>
-                </div>
-
-                <div class="total-price">$50.00</div>
-
-            </div>         
-            
-            
-            <div class="subtotal-section flex-center-style">
-                <span>Total: </span>
-                <span>$200.00</span>
-
-            </div>
+            <script rel="javascript/text" src="swiper.min.js"></script>
+            <script rel="javascript/text" src="script.js"></script>
         </div>
-
-        <div class="checkout-buttons flex-center-style">
-        <div class="checkout flex-center-style">
-            <a href="">Checkout <i class="fas fa-credit-card"></i></a>
-        </div>
-
-        <div class="cont-shopping flex-center-style">
-            <a href="">Continue shopping <i class="fas fa-arrow-alt-circle-right"></i></i></a>
-        </div>
-
-    </div>
-
-    <script rel="javascript/text" src="swiper.min.js"></script>
-    <script rel="javascript/text" src="script.js"></script>
 </body>
 
 </html>
