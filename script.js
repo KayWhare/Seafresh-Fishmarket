@@ -56,7 +56,6 @@ searchbtn.addEventListener('click', ()=>{
    }
 }
 );
-
 // -----------------------SWIPER-------------------------------
 
 var swiper = new Swiper('.swiper-container', {
@@ -101,9 +100,6 @@ var swiper = new Swiper('.swiper-container', {
 
 
 
-
-
-
  //--------------------Media Query for SWIPER ------------------
 
 
@@ -115,3 +111,24 @@ mediaSm.addEventListener("change", function(){
    swiper.slidesPerGroup = 1;
 
 }) 
+
+//-----------------Reset Catagory GIF -----------------//
+
+
+document.getElementById("test").addEventListener("mouseover", function() {
+   var loaderImg = "/images/back-img-gif.gif";
+   document.getElementById("test").style.backgroundImage="url(" + loaderImg + "?ts=" + Date.now() + ")";
+   document.getElementById("test").style.backgroundSize="cover";
+;
+
+  if (this.classList.contains("active-img")) {
+    this.classList.remove("active-img");
+  } else this.classList.add("active-img");
+});
+
+
+document.getElementById("test").addEventListener("mouseout", function() {
+     this.classList.remove("active-img");
+     document.getElementById("test").style.backgroundImage="url(none)";
+
+ });
