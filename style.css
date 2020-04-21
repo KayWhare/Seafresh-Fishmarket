@@ -26,12 +26,7 @@ body {
     z-index: 8;
     background-color:rgba(255, 255, 255, 0.4);
 }
-#logoPlaceholder{
-    font-family: 'Noto Serif JP', serif;
-    font-size: 42px;
-    visibility: hidden;
-    transition: all 0.3s;
-}
+
 #searchIcon{
     transition: all 0.3s;
 }
@@ -47,6 +42,18 @@ body {
     transform: scale(1.05);
     transition: all 200ms;
     z-index: 9;
+}
+
+#logo{
+    width:300px;
+    height:120px;
+    padding-bottom:30px;
+    display:none;
+}
+
+#logo-sm{
+    width:120px;
+    height:50px;
 }
 #searchIcon{
     position: absolute;
@@ -758,6 +765,7 @@ input[type=text]{
         opacity: .8;
         display:flex;
         flex-direction: column;
+        align-content: center;
         justify-content: center;
         align-items: center;
         max-width:1000px;
@@ -861,6 +869,13 @@ input[type=text]{
         width: 90%;
     }
 
+    #logo-sm{
+        display:none;
+    }
+    #logo{
+        display:block;
+    }
+
 }
 
 /* Large devices (desktops, 992px and up) */
@@ -880,7 +895,7 @@ input[type=text]{
 }
 
 /* Extra large devices (large desktops, 1200px and up) */
-@media (min-width: 1200px) {
+@media (max-width: 1200px) {
     .store{
         display:flex;
         flex-direction: column;
@@ -896,4 +911,5 @@ input[type=text]{
     .store-details{
         margin-top:15px;
     }
+
 }
