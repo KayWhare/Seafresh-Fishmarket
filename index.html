@@ -9,8 +9,10 @@
       <!-- Link Swiper's CSS -->
   <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="swiper.min.css">
-    <link rel="stylesheet" href="//use.fontawesome.com/releases/v5.0.7/css/all.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Marck+Script&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=East+Sea+Dokdo&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+JP:wght@500&display=swap" rel="stylesheet">
 
     
   <title>Seafresh FishMarket</title>
@@ -55,13 +57,8 @@
       <li><a href="" target="_blank">Shellfish</a></li>
       <li><a href="" target="_blank">Caviar</a></li>
       <li><a href="" target="_blank">Sushi</a></li>
-      
+    
     </ul>
-
-
-
-
-
 
 
   </div>
@@ -74,7 +71,7 @@
 
     <div class="productMenu">
       
-        <a href="" target="_self" alt="Whole Fish"><img src="Icons/004-fish.png">Whole</a>
+        <a href="" target="_self" alt="Whole Fish" id="test"><img src="Icons/004-fish.png">Whole</a>
         <a href="" target="_self" alt="Fish Fillets"><img src="Icons/008-sushi-2.png">Fillet</a>
         <a href="" target="_self" alt="Crustaceans"><img src="Icons/001-mussel.png">Crustaceans</a>
         <a href="" target="_self" alt="Shellfish"><img src="Icons/002-crab.png">Shellfish</a>
@@ -86,62 +83,111 @@
 
 
 
+    <h3 id="specials">Specials</h3>
+
+
+
     <!-- Swiper -->
 
 
 
+        <div class="swiper-container">
+          <div class="swiper-button-next"></div>
+          <div class="swiper-button-prev"></div>
+          <div class="swiper-wrapper">
+
+            <div class="swiper-slide">
+              <div class="img-specials">
+                  <i class="fas fa-info-circle"></i>
+              </div>
+              <div class="price">
+                  <p class="description">Yellingup King Prawns</p>
+                  <p> $7.89 <i class="unit"> per kg</i>  <input type="number" class="counter" id="quantity" name="quantity" value="1" min="1" max="100"></p>
+              </div>
+              <div class="add">
+                  <p> Add </p>
+              </div>
+            </div>
 
 
-  <div class="swiper-container">
-    <div class="swiper-wrapper">
-      <div class="swiper-slide">
-        <div class="img">
-            <i class="fas fa-info-circle"></i>
+            <div class="swiper-slide">
+              <div class="img-specials">
+                  <i class="fas fa-info-circle"></i>
+              </div>
+              <div class="price">
+                  <p class="description">Yellingup King Prawns</p>
+                  <p> $1.89 <i class="unit"> per kg</i>  <input type="number" class="counter" id="quantity" name="quantity" value="1" min="1" max="100"></p>
+              </div>
+              <div class="add">
+                  <p> Add </p>
+              </div>
+            </div>
+
+            <div class="swiper-slide">
+              <div class="img-specials">
+                  <i class="fas fa-info-circle"></i>
+              </div>
+              <div class="price">
+                  <p class="description">Yellingup King Prawns</p>
+                  <p> $5.89 <i class="unit"> per kg</i>  <input type="number" class="counter" id="quantity" name="quantity" value="1" min="1" max="100"></p>
+              </div>
+              <div class="add">
+                  <p> Add </p>
+              </div>
+            </div>
+          </div>
+          </div>
+
+          <div class="img-email">
+
+            <div class="midbox">
+                <h3>Join Our Community</h3>
+                <p>Get updates on specials, reciepes and much more!</p>
+                <input type="email" class="email">
+            
+            </div>
+        
         </div>
-        <div class="price">
-            <p class="description">Yellingup King Prawns</p>
-            <p> $7.89 <i class="unit"> per kg</i>  <input type="number" class="counter" id="quantity" name="quantity" value="1" min="1" max="100"></p>
-        </div>
-        <div class="add">
-            <p> Add </p>
-        </div>
-      </div>
 
 
-      <div class="swiper-slide">
-        <div class="img">
-            <i class="fas fa-info-circle"></i>
-        </div>
-        <div class="price">
-            <p class="description">Yellingup King Prawns</p>
-            <p> $1.89 <i class="unit"> per kg</i>  <input type="number" class="counter" id="quantity" name="quantity" value="1" min="1" max="100"></p>
-        </div>
-        <div class="add">
-            <p> Add </p>
-        </div>
-      </div>
+          <div class="store-section">
 
-      <div class="swiper-slide">
-        <div class="img">
-            <i class="fas fa-info-circle"></i>
-        </div>
-        <div class="price">
-            <p class="description">Yellingup King Prawns</p>
-            <p> $5.89 <i class="unit"> per kg</i>  <input type="number" class="counter" id="quantity" name="quantity" value="1" min="1" max="100"></p>
-        </div>
-        <div class="add">
-            <p> Add </p>
-        </div>
-      </div>
-    </div>
+            <div class="store">
+            <img src="/images/SeafreshClaremont.jpg" alt="">
+            <div class="store-details">
+            <h5 class="store-head">SEAFRESH CLAREMONT</h5>
+            <p class="adress">
+              26 Saint Quentins Avenue <br>
+            Claremont, Western Australia
+            </p>
+            <p class="phone">(08) 9383 2031</p>
 
-    
-  <!-- Add Pagination   (still needs to be centered) -->
+            </div>
+          </div>
 
-  </div>
-  <div class="swiper-pagination"></div>
+            
+            <div class="store">
+            <img src="/images/SeafreshInnaloo.jpg" alt="">
+            <div class="store-details">
+            <h5 class="store-head">SEAFRESH INNALOO </h5>
+            <p class="adress">388 Scarborough Beach Rd <br>
+              Perth, Western Australia</p>
+              <p class="phone">(08) 9445 2451</p>
+            </div>
+          </div>
+          
 
+            <div class="store">
+            <img src="/images/SeafreshMyaree.jpg" alt="">
+            <div class="store-details">
+              <h5 class="store-head">SEAFRESH MYAREE</h5>
+            <p class="adress">488 Marmion Streets <br>
+              Myaree, Western Australia</p>
+              <p class="phone">(08) 9330 3494</p>
+            </div>
+          </div>
 
+          </div>
 
 <script rel="javascript/text" src="swiper.min.js"></script>
 <script rel="javascript/text" src="script.js"></script>

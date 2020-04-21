@@ -56,20 +56,23 @@ searchbtn.addEventListener('click', ()=>{
    }
 }
 );
-
 // -----------------------SWIPER-------------------------------
 
 var swiper = new Swiper('.swiper-container', {
-   loop: false,
-
+   slidesPerView: 3,
+   spaceBetween: 30,
+   slidesPerGroup: 3,
+   loop: true,
    loopFillGroupWithBlank: true,
-
    pagination: {
      el: '.swiper-pagination',
      clickable: true,
    },
-
-   breakpoints: {
+   navigation: {
+     nextEl: '.swiper-button-next',
+     prevEl: '.swiper-button-prev',
+   },
+      breakpoints: {
 
 
        // when window width is <= 499px
@@ -85,15 +88,15 @@ var swiper = new Swiper('.swiper-container', {
       },
       
       // when window width is <= 999px
-      999: {
+      800: {
          slidesPerView: 3,
          spaceBetween: 30,
          slidesPerGroup: 3,
       }
       
-  }
-
+  },
  });
+ 
 
 
 
@@ -108,3 +111,24 @@ mediaSm.addEventListener("change", function(){
    swiper.slidesPerGroup = 1;
 
 }) 
+
+//-----------------Reset Catagory GIF -----------------//
+
+
+document.getElementById("test").addEventListener("mouseover", function() {
+   var loaderImg = "/images/back-img-gif.gif";
+   document.getElementById("test").style.backgroundImage="url(" + loaderImg + "?ts=" + Date.now() + ")";
+   document.getElementById("test").style.backgroundSize="cover";
+;
+
+  if (this.classList.contains("active-img")) {
+    this.classList.remove("active-img");
+  } else this.classList.add("active-img");
+});
+
+
+document.getElementById("test").addEventListener("mouseout", function() {
+     this.classList.remove("active-img");
+     document.getElementById("test").style.backgroundImage="url(none)";
+
+ });
