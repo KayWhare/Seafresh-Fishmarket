@@ -3,7 +3,7 @@
     font-family: 'Roboto', sans-serif;
     margin: 0;
     padding: 0;
-    /* border: 1px solid red; */
+    border: 1px solid red;
 }
 body {
     position: relative;
@@ -326,7 +326,6 @@ font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
     display:flex;
     justify-content: center;
     font-size: 3em;
-    width:100%;
 }
 
 
@@ -404,8 +403,7 @@ input[type=text]{
     padding-top:100px;
 }
 .store > img{
-    width:90%;
-    min-width:400px;
+    width:100%;
 }
 .store-details{
     display:flex;
@@ -822,7 +820,10 @@ input[type=text]{
 
 /* Small devices (landscape phones, 576px and up) */
 @media (min-width: 576px) {
-
+    .store > img{
+        width:90%;
+        min-width:400px;
+    }
     .img-email{
         display:flex;
         align-items: center;
