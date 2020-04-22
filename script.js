@@ -83,10 +83,19 @@ var swiper = new Swiper('.swiper-container', {
       
       // when window width is <= 999px
       768: {
+
          slidesPerView: 3,
          slidesPerGroup: 3,
-         spaceBetween: 10,
+         spaceBetween: 8,
+
+      },
+      1200: {
+         slidesPerView: 4,
+         slidesPerGroup: 4,
+         spaceBetween: 2,
       }
+
+
       
   },
  });

@@ -2,7 +2,7 @@
     font-family: 'Roboto', sans-serif;
     margin: 0;
     padding: 0;
-    border: 1px solid red;
+    /* border: 1px solid red; */
 }
 
 body {
@@ -297,36 +297,6 @@ body {
 .productMenu a img {
     padding: 10px;
 }
-
-/* -----------SWIPER-------------- */
-
-
-#specials {
-    padding: 20px;
-}
-
-.swiper-container {
-    height: 570px;
-    width: 100%;
-    max-width: 1200px;
-    margin-bottom: 250px;
-    margin-top: 50px;
-}
-
-.swiper-slide {
-    width: 400px;
-    height: 540px;
-}
-
-#specials {
-    padding-top: 20vh;
-    font-family: 'Marck Script', cursive;
-    text-shadow: 2px 2px 5px lightblue;
-    display: flex;
-    justify-content: center;
-    font-size: 3em;
-}
-
 
 
 /* ------- Email List ---------- */
@@ -709,6 +679,35 @@ input[type=text] {
     background-image: linear-gradient(yellowgreen, darkgreen);
     transition: all 1s;
 }
+/* -----------SWIPER-------------- */
+
+
+#specials {
+    padding: 20px;
+}
+
+.swiper-container {
+    width: 80%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+#specials {
+    padding-top: 20vh;
+    font-family: 'Marck Script', cursive;
+    text-shadow: 2px 2px 5px lightblue;
+    display: flex;
+    justify-content: center;
+    font-size: 3em;
+}
+.swiper-slide{
+    display: flex;
+    flex-shrink: 0;
+    justify-content: center;
+    width: 100%;
+    position: relative;
+    transition-property: transform;
+}
 
 /* =========================================================== */
 /* SHOP STYLES */
@@ -736,22 +735,12 @@ input[type=text] {
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-    width: 100%;
     box-shadow: 0px 0px 20px 1px rgb(230, 230, 230);
     border-radius: 3px;
     overflow: hidden;
-    height: 100%;
     max-width: 250px;
-    margin-right: 20px;
-    margin-bottom: 20px;
+    margin: 20px;
 }
-
-.swiper-slide {
-    max-width: none;
-    margin-right: 0px;
-}
-
-
 .shop-item:hover {
     box-shadow: 0px 0px 15px 1px grey;
     transition: all 0.7s;
@@ -766,7 +755,6 @@ input[type=text] {
     color: rgb(185, 3, 3);
     font-family: 'Lobster', cursive;
     text-shadow: -2px 2px 5px rgb(255, 255, 255);
-
 }
 
 .shop-item>h3 {
@@ -1041,6 +1029,9 @@ input[type=text] {
 
     .store {
         width: 35%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
     }
 
     .delivery-details {
