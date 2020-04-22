@@ -30,14 +30,6 @@ body {
     z-index: 8;
     background-color: rgba(255, 255, 255, 0.4);
 }
-
-#logoPlaceholder {
-    font-family: 'Noto Serif JP', serif;
-    font-size: 42px;
-    display: none;
-    transition: all 0.3s;
-}
-
 #hamburger {
     display: flex;
 }
@@ -307,32 +299,6 @@ body {
 
 .productMenu a img {
     padding: 10px;
-}
-
-
-/* -----------SWIPER-------------- */
-
-.swiper-container {
-    height: 570px;
-    width: 100%;
-    max-width: 1200px;
-    margin-bottom: 250px;
-    margin-top: 50px;
-}
-
-.swiper-slide {
-    width: 400px;
-    height: 540px;
-}
-
-#specials {
-    padding: 20px;
-    padding-top: 20vh;
-    font-family: 'Marck Script', cursive;
-    text-shadow: 2px 2px 5px rgb(84, 155, 214);
-    display: flex;
-    justify-content: center;
-    font-size: 3em;
 }
 
 /* ------- Email List ---------- */
@@ -760,20 +726,34 @@ input[type=text] {
 #specials {
     padding: 20px;
 }
-
+.swiper-box{
+    position: relative;
+    margin: 60px auto;
+}
+.swiper-button-prev{
+    position: absolute !important;
+    top: 50% !important;
+    left: 30px !important;
+}
+.swiper-button-next{
+    position: absolute !important;
+    top: 50% !important;
+    right: 30px !important;
+}
 .swiper-container {
-    width: 80%;
+    position: relative;
+    width: 90%;
     max-width: 1200px;
-    margin: 0 auto;
+    overflow: visible;
 }
 
 #specials {
-    padding-top: 20vh;
     font-family: 'Marck Script', cursive;
     text-shadow: 2px 2px 5px lightblue;
     display: flex;
     justify-content: center;
     font-size: 3em;
+    margin: 20px auto;
 }
 .swiper-slide{
     display: flex;
@@ -1056,7 +1036,6 @@ input[type=text] {
         width: 90%;
     }
 
-    #logo-sm {
    .back-shader {
         display: none;
     }
