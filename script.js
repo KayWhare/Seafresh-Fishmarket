@@ -59,9 +59,8 @@ searchbtn.addEventListener('click', ()=>{
 // -----------------------SWIPER-------------------------------
 
 var swiper = new Swiper('.swiper-container', {
-   slidesPerView: 3,
-   spaceBetween: 30,
-   slidesPerGroup: 3,
+   slidesPerGroup: 1,
+   slidesPerView: 1,
    loop: true,
    loopFillGroupWithBlank: true,
    pagination: {
@@ -75,23 +74,18 @@ var swiper = new Swiper('.swiper-container', {
       breakpoints: {
 
 
-       // when window width is <= 499px
-      499: {
-         slidesPerGroup: 1,
-          slidesPerView: 1,
-          spaceBetween: 0,
-      },
+
       // when window width is <= 600px
-      600: {
+      576: {
           slidesPerView: 2,
-          spaceBetween: 30,
+          spaceBetween: 10,
       },
       
       // when window width is <= 999px
-      800: {
+      768: {
          slidesPerView: 3,
-         spaceBetween: 30,
          slidesPerGroup: 3,
+         spaceBetween: 10,
       }
       
   },
