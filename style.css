@@ -30,6 +30,7 @@ body {
     z-index: 8;
     background-color: rgba(255, 255, 255, 0.4);
 }
+
 #hamburger {
     display: flex;
 }
@@ -60,13 +61,13 @@ body {
     height: 120px;
 }
 
-.back-shader{
-    width:160px;
-    height:80px;
-    display:flex;
+.back-shader {
+    width: 160px;
+    height: 80px;
+    display: flex;
     align-items: center;
     justify-content: center;
-    background-color:rgba(0,0,0,0.5)
+    background-color: rgba(0, 0, 0, 0.5)
 }
 
 #searchIcon {
@@ -161,7 +162,6 @@ body {
     height: 500px;
     background: url("images/SeafoodBannerDark.jpg")no-repeat center center fixed;
     background-size: cover;
-    background-position: 50% 50%;
     z-index: 9;
     display: flex;
     justify-content: center;
@@ -350,42 +350,51 @@ body {
     width: 50%;
 }
 
-.email-box{
+.email-box {
     height: 40px;
     justify-content: center;
-    display: flex; /*its better to use inline-flex*/
-  }
-  .email-box i{
+    display: flex;
+    /*its better to use inline-flex*/
+}
+
+.email-box i {
     background: rgb(84, 155, 214);
     width: 40px;
     line-height: 40px;
-  }
-  .tbox,.btn{
+}
+
+.tbox,
+.btn {
     border: none;
     outline: none;
-  }
-  .tbox{
+}
+
+.tbox {
     width: 0px;
     transition: 0.6s;
-  }
-  .email-box:hover > .tbox,.tbox:focus{
+}
+
+.email-box:hover>.tbox,
+.tbox:focus {
     width: 260px;
     padding: 0 10px;
-    background-color:rgba(0,0,0,0.1);
-  }
-  .btn{
+    background-color: rgba(0, 0, 0, 0.1);
+}
+
+.btn {
     background: rgb(84, 155, 214);
     padding: 0 10px;
     text-transform: uppercase;
     cursor: pointer;
-    
-  }
 
-  .fa-envelope{
-      display:flex;
-      align-items: center;
-      justify-content: center;
-  }
+}
+
+.fa-envelope {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 input[type=number] {
     -moz-appearance: textfield;
 }
@@ -415,8 +424,8 @@ input[type=text] {
     padding-top: 100px;
 }
 
-.store > img{
-    width:100%;
+.store>img {
+    width: 100%;
 }
 
 .store-details {
@@ -439,6 +448,46 @@ input[type=text] {
 /* =========================================================== */
 /* CART STYLES */
 /* =========================================================== */
+.cart-quickview {
+    position: fixed;
+    background-color: rgb(255, 255, 255);
+    border-radius: 3px;
+    top: 80px;
+    right: -375px;
+    width: 375px;
+    z-index: 100000;
+    box-shadow: 0px 5px 10px rgb(80, 80, 80);
+    transform: translateX(0px);
+    transition: all 0.3s;
+}
+
+.quickview-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.quickview-container :first-child {
+    border-top: none;
+}
+
+.quickview-container>.cart-item>.cart-item-image,
+.cart-item-description .cart-item-quantity .cart-item-price {
+    max-width: 80px;
+    font-size: 10px;
+}
+
+.quickview-container>.cart-item>.cart-item-button-wrapper,
+.cart-item-quantity>button {
+    display: none;
+}
+.quickview-container>.total-section :last-child{
+    margin-top: 80px;
+    width: 80%;
+    padding: 10px 100px;
+    text-align: center;
+}
 
 .cart-container {
     display: flex;
@@ -720,26 +769,33 @@ input[type=text] {
     background-image: linear-gradient(yellowgreen, darkgreen);
     transition: all 1s;
 }
+
 /* -----------SWIPER-------------- */
 
 
 #specials {
     padding: 20px;
 }
-.swiper-box{
+
+.swiper-box {
     position: relative;
     margin: 60px auto;
 }
-.swiper-button-prev{
+
+.swiper-button-prev {
     position: absolute !important;
     top: 50% !important;
     left: 30px !important;
+    outline: none !important;
 }
-.swiper-button-next{
+
+.swiper-button-next {
     position: absolute !important;
     top: 50% !important;
     right: 30px !important;
+    outline: none !important;
 }
+
 .swiper-container {
     position: relative;
     width: 90%;
@@ -755,7 +811,8 @@ input[type=text] {
     font-size: 3em;
     margin: 20px auto;
 }
-.swiper-slide{
+
+.swiper-slide {
     display: flex;
     flex-shrink: 0;
     justify-content: center;
@@ -796,6 +853,7 @@ input[type=text] {
     max-width: 250px;
     margin: 20px;
 }
+
 .shop-item:hover {
     box-shadow: 0px 0px 15px 1px grey;
     transition: all 0.7s;
@@ -918,10 +976,11 @@ input[type=text] {
 /* Small devices (landscape phones, 576px and up) */
 @media (min-width: 576px) {
 
-    .store > img{
-        width:90%;
-        min-width:400px;
+    .store>img {
+        width: 90%;
+        min-width: 400px;
     }
+
     .img-email {
         display: flex;
         align-items: center;
@@ -939,7 +998,7 @@ input[type=text] {
 
 /* Medium devices (tablets, 768px and up) The navbar toggle appears at this breakpoint */
 @media (min-width: 768px) {
-    
+
     .midbox {
         width: 60%;
         height: 50%;
@@ -951,7 +1010,8 @@ input[type=text] {
         justify-content: center;
         align-items: center;
         max-width: 1000px;
-    } 
+    }
+
     .total-section :last-child {
         padding: 30px 200px;
     }
@@ -1036,7 +1096,7 @@ input[type=text] {
         width: 90%;
     }
 
-   .back-shader {
+    .back-shader {
         display: none;
     }
 
