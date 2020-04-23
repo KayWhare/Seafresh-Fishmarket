@@ -27,8 +27,7 @@ body {
     position: fixed;
     height: 80px;
     transition: all 0.3s;
-    z-index: 8;
-    background-color: rgba(255, 255, 255, 0.4);
+    z-index: 40;
 }
 
 #hamburger {
@@ -49,9 +48,7 @@ body {
 
 #logo {
     width: 300px;
-    height: 120px;
-    height: 180px;
-    padding-bottom: 30px;
+    padding-bottom: 20px;
     display: none;
 }
 
@@ -67,7 +64,6 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: rgba(0, 0, 0, 0.5)
 }
 
 #searchIcon {
@@ -157,12 +153,21 @@ body {
     transform: rotate(-135deg);
     margin-top: -10px;
 }
-
-.banner {
+.banner-outer{
+    position: relative;
+    top: 0px;
+    width: 100%;
     height: 500px;
-    background: url("images/SeafoodBannerDark.jpg")no-repeat center center fixed;
+    background: url("images/Crayfish.jpg")no-repeat bottom center fixed;
     background-size: cover;
-    z-index: 9;
+}
+.banner {
+    position: absolute;
+    top: 0px;
+    width: 100%;
+    height: 500px;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 10;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -172,7 +177,9 @@ body {
 .banner h4 {
     font-size: 3em;
     color: white;
-    font-family: 'Marck Script', cursive;
+    font-family: 'Lobster', cursive;
+    text-shadow: 1px 2px 5px black;
+    letter-spacing: 1.6px;
 }
 
 .banner input {
@@ -279,7 +286,7 @@ body {
     display: none;
     width: 100%;
     justify-content: space-evenly;
-    border-bottom: 1px solid lightgrey;
+    border-bottom: 2px solid lightgray;
 }
 
 .productMenu a {
@@ -315,20 +322,19 @@ body {
     background-image: url(/images/abraham-garcia-Qnw70v0Bi9E-unsplash-\(1\).jpg);
     background-size: cover;
     background-attachment: fixed;
-
 }
 
 .midbox {
-    width: 60%;
-    width: 100%;
+    width: 82%;
     height: 50%;
-    background-color: white;
-    opacity: .8;
+    background-color: rgba(24, 24, 24, 0.452);
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     max-width: 1000px;
+    border-radius: 2px;
+    color: white;
 }
 
 .midbox>h3 {
@@ -336,7 +342,6 @@ body {
     font-family: 'Marck Script', cursive;
     font-size: 1.5em;
     font-size: 2em;
-    text-shadow: 2px 2px 5px rgb(84, 155, 214);
 }
 
 
@@ -421,11 +426,13 @@ input[type=text] {
     width: 100%;
     display: flex;
     justify-content: space-evenly;
-    padding-top: 100px;
+    padding: 100px 0px;
 }
 
 .store>img {
     width: 100%;
+    box-shadow: 0px 0px 20px 1px rgb(211, 211, 211);
+    border-radius: 2px;
 }
 
 .store-details {
@@ -981,36 +988,10 @@ input[type=text] {
         min-width: 400px;
     }
 
-    .img-email {
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        width: 100%;
-        margin: 0 auto;
-        height: 500px;
-        background-image: url(/images/abraham-garcia-Qnw70v0Bi9E-unsplash-\(1\).jpg);
-        background-size: cover;
-        background-attachment: fixed;
-    }
-
-
 }
 
 /* Medium devices (tablets, 768px and up) The navbar toggle appears at this breakpoint */
 @media (min-width: 768px) {
-
-    .midbox {
-        width: 60%;
-        height: 50%;
-        background-color: white;
-        opacity: .8;
-        display: flex;
-        flex-direction: column;
-        align-content: center;
-        justify-content: center;
-        align-items: center;
-        max-width: 1000px;
-    }
 
     .total-section :last-child {
         padding: 30px 200px;
@@ -1042,10 +1023,6 @@ input[type=text] {
 
     #sidebarCategories {
         display: none;
-    }
-
-    #logoPlaceholder {
-        display: block;
     }
 
     .cart-title {
@@ -1109,6 +1086,9 @@ input[type=text] {
 /* Large devices (desktops, 992px and up) */
 
 @media (min-width: 992px) {
+    .midbox{
+        width: 50%;
+    }
     .cart-item {
         width: 95%;
     }
