@@ -29,7 +29,7 @@ window.addEventListener("scroll", function (event) {
 });
 
 
-// ----------------------TOGGLE FOR SIDEMENU-------------------
+// -----------TOGGLE FOR SIDEMENU & Cart-Quickview-------------------
 
 var checkbox = document.getElementById('openSidebarMenu');
 
@@ -42,6 +42,17 @@ checkbox.addEventListener('click', function(){
       sidebarMenu.style.transform = 'translateX(-250px)';
    }
 });
+
+var cartLink = document.getElementById("cartLink");
+let cartQuickview = document.querySelector('.cart-quickview');
+
+cartLink.addEventListener('mouseover', ()=>{
+   cartQuickview.style.transform = "translateX(-375px)";
+});
+cartLink.addEventListener('mouseout', ()=>{
+   cartQuickview.style.transform = "translateX(0px)";
+});
+
 
 //-----------------------Searchbar Toggle------------------
 
