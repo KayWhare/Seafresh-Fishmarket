@@ -4,8 +4,6 @@
 window.addEventListener("scroll", function (event) {
    let headerDiv = document.getElementById('nav');
    let spinner = document.querySelectorAll('.spinner');
-   let logo = this.document.getElementById('logo-sm');
-
 
    if (window.pageYOffset > 0){
       headerDiv.style.backgroundColor="rgba(0, 0, 0, 0.8)";
@@ -112,37 +110,58 @@ var swiper = new Swiper('.swiper-container', {
  });
  
 
-
-
- //--------------------Media Query for SWIPER ------------------
-
-
-const mediaSm = matchMedia('(min-width: 600px)');
-
-mediaSm.addEventListener("change", function(){
-
-   swiper.SlidesPerView = 1;
-   swiper.slidesPerGroup = 1;
-
-}) 
-
 //-----------------Reset Catagory GIF -----------------//
 
 
-document.getElementById("test").addEventListener("mouseover", function() {
-   var loaderImg = "/images/back-img-gif.gif";
-   document.getElementById("test").style.backgroundImage="url(" + loaderImg + "?ts=" + Date.now() + ")";
-   document.getElementById("test").style.backgroundSize="cover";
-;
+// document.getElementById("test").addEventListener("mouseover", function() {
+//    var loaderImg = "/images/back-img-gif.gif";
+//    document.getElementById("test").style.backgroundImage="url(" + loaderImg + "?ts=" + Date.now() + ")";
+//    document.getElementById("test").style.backgroundSize="cover";
+// ;
 
-  if (this.classList.contains("active-img")) {
-    this.classList.remove("active-img");
-  } else this.classList.add("active-img");
+//   if (this.classList.contains("active-img")) {
+//     this.classList.remove("active-img");
+//   } else this.classList.add("active-img");
+// });
+
+
+// document.getElementById("test").addEventListener("mouseout", function() {
+//      this.classList.remove("active-img");
+//      document.getElementById("test").style.backgroundImage="url(none)";
+
+//  });
+// ----------- item button functionality ----------
+debugger;
+var addButtons = document.querySelectorAll('.plus-btn');
+var minusButtons = document.querySelectorAll('.minus-btn');
+var itemTotals = document.querySelectorAll('.minus-btn');
+
+
+addButtons.forEach( b => {
+   b.addEventListener('click', ()=>{
+      var itemQuantity = b.previousElementSibling.value;
+      var intValue = parseInt(itemQuantity, 10);
+         b.previousElementSibling.value = intValue + 1;   
+   })
 });
-
-
-document.getElementById("test").addEventListener("mouseout", function() {
-     this.classList.remove("active-img");
-     document.getElementById("test").style.backgroundImage="url(none)";
-
- });
+minusButtons.forEach( b => {
+   b.addEventListener('click', ()=>{
+      var stringValue = b.nextElementSibling.value;
+      var intValue = parseInt(stringValue, 10);
+      if(intValue <= 1){
+         b.nextElementSibling.value = 1;
+      }else{
+         b.nextElementSibling.value = intValue - 1;
+      }
+   })
+});
+// for(i=0;i<addButtons.length;i++){
+//    addButtons[i].addEventListener('click', ()=>{
+//       var total = itemTotals[i];
+//       var floatTotal = parseFloat(total);
+//       var itemQuantity = addButtons[i].previousElementSibling.value;
+//       var intValue = parseInt(itemQuantity, 10);
+//       addButtons[i].previousElementSibling.value = intValue + 1;
+//          itemTotals[i].innerHTML = 20;
+// });
+// };

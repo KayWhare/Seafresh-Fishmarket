@@ -46,26 +46,6 @@ body {
     z-index: 9;
 }
 
-#logo {
-    width: 300px;
-    padding-bottom: 20px;
-    display: none;
-}
-
-#logo-sm {
-    width: 160px;
-    height: 80px;
-    height: 120px;
-}
-
-.back-shader {
-    width: 160px;
-    height: 80px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
 #searchIcon {
     position: absolute;
     right: 80px;
@@ -82,8 +62,7 @@ body {
 }
 
 .header>a>i:hover {
-    color: rgb(0, 0, 0);
-    transform: scale(1.1);
+    color: teal;
     transition: all 200ms;
     z-index: 9;
 }
@@ -155,12 +134,14 @@ body {
 }
 .banner-outer{
     position: relative;
-    top: 0px;
+    top: px;
     width: 100%;
     height: 500px;
-    background: url("images/Crayfish.jpg")no-repeat bottom center fixed;
+    background: url("images/Crayfish.jpg")no-repeat center fixed;
+    background-position-y: -170px;
     background-size: cover;
 }
+
 .banner {
     position: absolute;
     top: 0px;
@@ -169,28 +150,54 @@ body {
     background-color: rgba(0, 0, 0, 0.5);
     z-index: 10;
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-    flex-direction: column;
 }
 
 .banner h4 {
-    font-size: 3em;
+    font-size: 4em;
     color: white;
     font-family: 'Lobster', cursive;
     text-shadow: 1px 2px 5px black;
-    letter-spacing: 1.6px;
+    letter-spacing: 4px;
+    text-align: center;
+    margin-top: 240px;
+    width: 100%;
 }
 
 .banner input {
-    margin-top: 20px;
     width: 100px;
     height: 40px;
     font-size: 1em;
     color: white;
     background-color: rgba(34, 107, 190, 0.1);
     border: 2px solid;
+    margin-bottom: 100px;
 }
+
+#logo {
+    position: absolute;
+    top: -45px;
+    width: 280px;
+    padding-bottom: 20px;
+    display: none;
+}
+
+#logo-sm {
+    width: 160px;
+    height: 80px;
+    height: 120px;
+}
+
+.back-shader {
+    width: 160px;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 
 /* ------------SEARCHBAR------------------------- */
 
@@ -203,14 +210,15 @@ body {
     width: 00px;
     height: 40px;
     border-radius: 20px;
-    background-color: rgba(0, 0, 0, 0.65);
+    background-color: white;
     transform-origin: 100% 0%;
     transition: all 0.3s;
+    box-shadow: 0px 1px 20px black;
 }
 
 .active {
     opacity: 1;
-    width: 300px;
+    width: 250px;
 }
 
 .search-input {
@@ -282,7 +290,7 @@ body {
 
 
 /* ----------PRODUCT MENU----------- */
-.productMenu {
+/* .productMenu {
     display: none;
     width: 100%;
     justify-content: space-evenly;
@@ -290,6 +298,7 @@ body {
 }
 
 .productMenu a {
+    
     color: black;
     height: 60px;
     width: 150px;
@@ -300,12 +309,43 @@ body {
 }
 
 .productMenu a:hover {
-    background-image: url(/images/back-img-test.jpg);
-    font-size: 1.2em;
+
 }
 
 .productMenu a img {
     padding: 10px;
+} */
+.productMenu{
+    display: none;
+    width: 100%;
+    justify-content: space-evenly;
+    border-top: 2px solid rgb(96, 181, 250);
+    border-bottom: 2px solid rgb(33, 64, 88);
+    background-image: linear-gradient(rgb(84, 155, 214), rgb(49, 93, 129));
+}
+
+.productMenu a {
+    font-family: 'Baloo Tamma 2', cursive;
+    font-size: 18px;
+    color: white;
+    height: 60px;
+    width: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    text-shadow: 0px 1px 3px rgb(39, 39, 39);
+}
+
+.productMenu a:hover {
+    transform: rotate(-10deg);
+    transition: all 0.3s;
+}
+
+.productMenu a img {
+    padding: 10px;
+    width: 30px;
 }
 
 /* ------- Email List ---------- */
@@ -339,9 +379,9 @@ body {
 
 .midbox>h3 {
     padding-bottom: 50px;
-    font-family: 'Marck Script', cursive;
-    font-size: 1.5em;
-    font-size: 2em;
+    font-family: 'Lobster Two', cursive;
+    font-size: 1.8em;
+    text-shadow: 1px 3px 5px black;
 }
 
 
@@ -363,7 +403,7 @@ body {
 }
 
 .email-box i {
-    background: rgb(84, 155, 214);
+    background-image: linear-gradient(rgb(84, 155, 214), rgb(56, 106, 148));
     width: 40px;
     line-height: 40px;
 }
@@ -387,7 +427,7 @@ body {
 }
 
 .btn {
-    background: rgb(84, 155, 214);
+    background-image: linear-gradient(rgb(84, 155, 214), rgb(56, 106, 148));
     padding: 0 10px;
     text-transform: uppercase;
     cursor: pointer;
@@ -439,6 +479,7 @@ input[type=text] {
     display: flex;
     flex-direction: column;
     align-items: center;
+    margin-top: 10px;
 }
 
 .phone {
@@ -539,7 +580,7 @@ input[type=text] {
     border-radius: 2px;
     height: 100px;
     font-size: 25px;
-    font-family: 'Carme', sans-serif;
+    font-family: 'Baloo Tamma 2', cursive;
 }
 
 .cart-item {
@@ -728,7 +769,6 @@ input[type=text] {
     width: 90%;
     height: 60px;
     border-radius: 4px;
-
     margin: 5px;
 }
 
@@ -779,11 +819,6 @@ input[type=text] {
 
 /* -----------SWIPER-------------- */
 
-
-#specials {
-    padding: 20px;
-}
-
 .swiper-box {
     position: relative;
     margin: 60px auto;
@@ -811,11 +846,11 @@ input[type=text] {
 }
 
 #specials {
-    font-family: 'Marck Script', cursive;
-    text-shadow: 2px 2px 5px lightblue;
+    font-family: 'Lobster Two', cursive;
+    text-shadow: 2px 2px 5px lightgrey;
     display: flex;
     justify-content: center;
-    font-size: 3em;
+    font-size: 34px;
     margin: 20px auto;
 }
 
@@ -835,9 +870,8 @@ input[type=text] {
 .shop-container>h1 {
     text-align: center;
     margin: 40px;
-    font-size: 34px;
-    font-family: 'Carme', sans-serif;
-    letter-spacing: 4px;
+    font-size: 50px;
+    font-family: 'Baloo Tamma 2', cursive;
 }
 
 .product-gallery {
@@ -868,10 +902,10 @@ input[type=text] {
 
 .special-tag {
     position: absolute;
-    top: 26px;
-    left: -10px;
+    top: 20px;
+    left: -5px;
     transform: rotate(-45deg);
-    font-size: 36px;
+    font-size: 26px;
     color: rgb(185, 3, 3);
     font-family: 'Lobster', cursive;
     text-shadow: -2px 2px 5px rgb(255, 255, 255);
@@ -975,6 +1009,7 @@ input[type=text] {
     .total-section :last-of-type {
         padding: 30px 70px;
     }
+
 }
 
 
@@ -987,11 +1022,14 @@ input[type=text] {
         width: 90%;
         min-width: 400px;
     }
-
+    .active{
+       width: 300px; 
+    }
 }
 
 /* Medium devices (tablets, 768px and up) The navbar toggle appears at this breakpoint */
 @media (min-width: 768px) {
+    
 
     .total-section :last-child {
         padding: 30px 200px;
@@ -1026,8 +1064,7 @@ input[type=text] {
     }
 
     .cart-title {
-        font-size: 22px;
-
+        font-size: 28px;
     }
 
     .cart-item-image {
@@ -1073,19 +1110,12 @@ input[type=text] {
         width: 90%;
     }
 
-    .back-shader {
-        display: none;
-    }
-
-    #logo {
-        display: block;
-    }
-
 }
 
 /* Large devices (desktops, 992px and up) */
 
 @media (min-width: 992px) {
+
     .midbox{
         width: 50%;
     }
@@ -1114,6 +1144,16 @@ input[type=text] {
 }
 
 /* Extra large devices (large desktops, 1200px and up) */
+
+@media (min-width:1200px){
+    .back-shader {
+        display: none;
+    }
+
+    #logo {
+        display: flex;
+    }
+}
 
 @media (max-width: 1200px) {
     .store {
