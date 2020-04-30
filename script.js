@@ -131,37 +131,73 @@ var swiper = new Swiper('.swiper-container', {
 
 //  });
 // ----------- item button functionality ----------
-debugger;
-var addButtons = document.querySelectorAll('.plus-btn');
-var minusButtons = document.querySelectorAll('.minus-btn');
-var itemTotals = document.querySelectorAll('.minus-btn');
+
+let addButtons = document.querySelectorAll('.plus-btn');
+let minusButtons = document.querySelectorAll('.minus-btn');
+let quantityInput = document.querySelectorAll(".quantity-input");
+let cartTotal = document.getElementById('total-price');
+let cartItemCollection = document.querySelectorAll('.cart-item-price');
+let removeButtons = document.querySelectorAll('.cart-item-delete-btn');
+
+document.addEventListener('DOMContentLoaded', function() {
+   cartCalculate();
+}, false);;
+
+function cartCalculate(){
+let cartTotalFloat = 0;
+cartItemCollection.forEach(t => {
+   let itemFloat = parseFloat(t.innerHTML);
+   cartTotalFloat += itemFloat;
+});
+cartTotal.innerHTML = cartTotalFloat.toFixed('2');
+};
+
+// 
+quantityInput.forEach( i => {
+   i.defaultValue = "1";
+   i.setAttribute('readonly', true)
+});
 
 
 addButtons.forEach( b => {
    b.addEventListener('click', ()=>{
-      var itemQuantity = b.previousElementSibling.value;
-      var intValue = parseInt(itemQuantity, 10);
-         b.previousElementSibling.value = intValue + 1;   
+      let itemQuantity = b.previousElementSibling.value;
+      let intValue = parseInt(itemQuantity, 10);
+      let totalPrice = b.parentElement.nextElementSibling.firstElementChild;
+      let intPrice = parseFloat(totalPrice.innerHTML);
+
+
+      itemQuantity = intValue + 1;
+      b.previousElementSibling.value = itemQuantity;
+      intPrice = (intPrice*itemQuantity)/(itemQuantity-1);
+      totalPrice.innerHTML= intPrice.toFixed(2);
+      cartCalculate()
    })
 });
 minusButtons.forEach( b => {
    b.addEventListener('click', ()=>{
-      var stringValue = b.nextElementSibling.value;
-      var intValue = parseInt(stringValue, 10);
-      if(intValue <= 1){
+      var itemQuantity = b.nextElementSibling.value;
+      var intValue = parseInt(itemQuantity, 10);
+      let totalPrice = b.parentElement.nextElementSibling.firstElementChild;
+      var intPrice = parseFloat(totalPrice.innerHTML);
+      
+      if(itemQuantity <= 1){
          b.nextElementSibling.value = 1;
       }else{
-         b.nextElementSibling.value = intValue - 1;
+         intPrice = (intPrice*(itemQuantity-1))/itemQuantity;
+         totalPrice.innerHTML = intPrice.toFixed(2);
+         
+         itemQuantity -= 1;
+         b.nextElementSibling.value = itemQuantity;
+         cartCalculate();
       }
    })
 });
-// for(i=0;i<addButtons.length;i++){
-//    addButtons[i].addEventListener('click', ()=>{
-//       var total = itemTotals[i];
-//       var floatTotal = parseFloat(total);
-//       var itemQuantity = addButtons[i].previousElementSibling.value;
-//       var intValue = parseInt(itemQuantity, 10);
-//       addButtons[i].previousElementSibling.value = intValue + 1;
-//          itemTotals[i].innerHTML = 20;
-// });
-// };
+
+// removeButtons.forEach( b =>{
+//       b.addEventListener('click', ()=>{
+//          b.parentElement.parentElement.remove();
+//          cartCalculate();
+//       });
+//    });
+   

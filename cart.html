@@ -37,7 +37,7 @@
             <input type="text" class="text search-input" placeholder="Type here to search..." />
         </form>
         <label for="search-input" id="searchIcon" href=""><i class="fas fa-search"></i></label>
-        <a href="cart.html"><i class="fas fa-shopping-cart"></i></a>
+        <a id="cartLink" href="cart.html"><i class="fas fa-shopping-cart"></i></a>
     </div>
 
     <div id="sidebarMenu" class="">
@@ -118,16 +118,15 @@
                         <button class="minus-btn" type="button" name="button">
                             <i class="far fa-minus-square"></i>
                         </button>
-                        <input type="number" name="quantitiy-btn" value="1">
+                        <input class="quantity-inptu" type="number" name="quantitiy-btn" value="1" >
                         <button class="plus-btn" type="button" name="button">
                             <i class="far fa-plus-square"></i>
                         </button>
                     </div>
 
-                    <span class="cart-item-price">$50.00</span>
+                    <p>Price: $<span class="cart-item-price">50.40</span></p>
                 </div>
 
-                <!-- Product #1 -->
                 <div class="cart-item">
 
                     <div class="cart-item-button-wrapper">
@@ -148,16 +147,15 @@
                         <button class="minus-btn" type="button" name="button">
                             <i class="far fa-minus-square"></i>
                         </button>
-                        <input type="number" name="quantitiy-btn" value="1">
+                        <input class="quantity-input" type="number" name="quantitiy-btn" value="1" >
                         <button class="plus-btn" type="button" name="button">
                             <i class="far fa-plus-square"></i>
                         </button>
                     </div>
 
-                    <span class="cart-item-price">$50.00</span>
+                    <p>Price: $<span class="cart-item-price">50.00</span></p>
                 </div>
 
-                <!-- Product #1 -->
                 <div class="cart-item">
 
                     <div class="cart-item-button-wrapper">
@@ -178,16 +176,15 @@
                         <button class="minus-btn" type="button" name="button">
                             <i class="far fa-minus-square"></i>
                         </button>
-                        <input type="number" name="quantitiy-btn" value="1">
+                        <input class="quantity-input" type="number" name="quantitiy-btn" value="1" >
                         <button class="plus-btn" type="button" name="button">
                             <i class="far fa-plus-square"></i>
                         </button>
                     </div>
 
-                    <span class="cart-item-price">$50.00</span>
+                    <p>Price: $<span class="cart-item-price">50.00</span></p>
                 </div>
 
-                <!-- Product #1 -->
                 <div class="cart-item">
 
                     <div class="cart-item-button-wrapper">
@@ -208,16 +205,15 @@
                         <button class="minus-btn" type="button" name="button">
                             <i class="far fa-minus-square"></i>
                         </button>
-                        <input type="number" name="quantitiy-btn" value="1">
+                        <input class="quantity-input" type="number" name="quantitiy-btn" value="1" >
                         <button class="plus-btn" type="button" name="button">
                             <i class="far fa-plus-square"></i>
                         </button>
                     </div>
 
-                    <span class="cart-item-price">$50.00</span>
+                    <p>Price: $<span class="cart-item-price">50.00</span></p>
                 </div>
 
-                <!-- Product #1 -->
                 <div class="cart-item">
 
                     <div class="cart-item-button-wrapper">
@@ -238,18 +234,21 @@
                         <button class="minus-btn" type="button" name="button">
                             <i class="far fa-minus-square"></i>
                         </button>
-                        <input type="number" name="quantitiy-btn" value="1">
+                        <input class="quantity-input" type="number" name="quantitiy" value="1" >
                         <button class="plus-btn" type="button" name="button">
                             <i class="far fa-plus-square"></i>
                         </button>
                     </div>
 
-                    <span class="cart-item-price">$50.00</span>
+                    <p>Price: $<span class="cart-item-price">50.00</span></p>
                 </div>
+
+
+               
 
                 <div class="total-section">
                     <span>Total</span>
-                    <span class="total-price">$200.00</span>
+                    <span id="total-price">0.00</span>
                 </div>
 
             </div>
@@ -265,10 +264,10 @@
                     <h3>Customer Info</h3>
 
                     <label for="fname">Full Name:</label>
-                    <input type="text" id="fname" name="firstname">
+                    <input type="text" id="fullname" name="fullname">
                     <label for="email">Email:</label>
                     <input type="email" id="email" name="email">
-                    <label for="phone number">Phone number:</label>
+                    <label for="phone-number">Phone number:</label>
                     <input type="number" id="phone-number" name="phone-number">
 
                     <h3>Billing Address</h3>
