@@ -1,0 +1,75 @@
+﻿@using ShopApp.Models
+
+@{
+    var products = (List<Product>)ViewData["Products"];
+    var cartItems = (List<CartItem>)ViewData["CartItems"];
+}
+
+
+@Html.Partial("_UserSummaryPartial")
+<section class="home-section">
+    <div class="validation-summary">
+        @Html.ValidationSummary()
+    </div>
+    <div class="products-container">
+        @foreach (var product in products)
+        {
+            var cartItemProduct = cartItems.SingleOrDefault(ci => ci.ProductId == product.Id);
+            var quantity = 0;
+            if (cartItemProduct != null)
+            {
+                quantity = cartItemProduct.Quantity;
+            }
+
+        <div class="product-item">
+            <h2>@product.Title</h2>
+            <p>
+                @product.Description
+            </p>
+            <p>
+                $@product.Price
+            </p>
+            <p>
+                <a href="/Product/Details/@product.Id">View Details</a>
+            </p>
+            <div class="product-item-add">
+                <form action="/Home/Index" method="POST">
+                    <input type="hidden" name="ProductId" value="@product.Id" />
+                    <input type="number" name="Quantity" value="@quantity" />
+                    <input type="submit" value="Add to Cart" />
+                </form>
+            </div>
+        </div>
+        }
+    </div>
+    <aside>
+        @Html.Partial("_BasketSummaryPartial")
+        <p>
+            <a href="/Cart/">Checkout</a>
+        </p>
+    </aside>
+</section>
+
+@section Scripts{
+    <script type="text/javascript">
+
+                    //// AJAX based form submission
+                    //var submitBtns = document.querySelectorAll('input[type="submit"]');
+                    //submitBtns.forEach(submitBtn => {
+                    //    submitBtn.addEventListener('click', evt => {
+                    //        evt.preventDefault();
+                    //        var form = submitBtn.closest('form');
+                    //        var formData = new URLSearchParams(new FormData(form));
+                    //        fetch('/Home/Index', {
+                    //            body: formData,
+                    //            method: "post"
+                    //        }).then(res => {
+                    //            alert('Submit successful');
+                    //        }).catch(err => {
+                    //            alert('Submit failed');
+                    //        });
+                    //    });
+                    //});
+
+    </script>
+}

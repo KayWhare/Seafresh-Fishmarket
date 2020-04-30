@@ -1,0 +1,56 @@
+﻿@using ShopApp.Models;
+
+@{
+   Layout = "_SeafreshLayout";
+
+    var products = (List<Product>)ViewData["Products"];
+ }
+
+
+<div class="shop-container">
+
+    <h1>Whole Fish</h1>
+
+    <div class="product-gallery">
+
+        @foreach (var p in products)
+        {
+            var quantity = 1;
+
+            <div class="shop-item">
+
+                <span class="special-tag"></span>
+
+                <img class="shop-item-image" src="/images/Snapper-Medium-Whole.jpg" alt="" />
+
+                <h3>@p.Title</h3>
+
+                <p class="shop-item-product-description">
+                    @p.Description
+                </p>
+
+                <form action="" method="get">
+                    <div class="shop-item-quantity">
+                        <input type="hidden" name="ProductID" value="@p.Id">
+                        <button class="minus-btn" type="button" name="button">
+                            <i class="far fa-minus-square"></i>
+                        </button>
+                        <input class="quantity-input" type="number" name="Quantitiy" value="@quantity">
+                        <button class="plus-btn" type="button" name="button">
+                            <i class="far fa-plus-square"></i>
+                        </button>
+                    </div>
+
+                    <p>Price: $<span class="shop-item-price">@p.Price</span></p>
+
+                    <div class="add-cart-btn flex-center-style">
+                        <input type="submit" value="ADD TO CART">
+                    </div>
+                </form>
+            </div>
+
+        }
+
+
+
+    </div>

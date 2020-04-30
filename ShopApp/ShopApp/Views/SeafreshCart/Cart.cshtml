@@ -1,0 +1,228 @@
+﻿
+@{
+    Layout = "_SeafreshLayout";
+}
+
+
+<div class="cart-container ">
+
+    <div class="shopping-cart">
+        <!-- Title -->
+        <div class="cart-title">
+            Shopping Cart
+        </div>
+
+        <!-- Product #1 -->
+        <div class="cart-item">
+
+            <div class="cart-item-button-wrapper">
+                <span class="cart-item-delete-btn"><i class="fas fa-times-circle"></i></span>
+            </div>
+
+            <div class="cart-item-image">
+                <img src="images/Snapper-Medium-Whole.jpg" alt="" />
+            </div>
+
+            <div class="cart-item-description">
+                <span class="item-category">Red Emperor</span>
+                <span></span>
+                <span></span>
+            </div>
+
+            <div class="cart-item-quantity">
+                <button class="minus-btn" type="button" name="button">
+                    <i class="far fa-minus-square"></i>
+                </button>
+                <input class="quantity-inptu" type="number" name="quantitiy-btn" value="1">
+                <button class="plus-btn" type="button" name="button">
+                    <i class="far fa-plus-square"></i>
+                </button>
+            </div>
+
+            <p>Price: $<span class="cart-item-price">50.40</span></p>
+        </div>
+
+        <div class="cart-item">
+
+            <div class="cart-item-button-wrapper">
+                <span class="cart-item-delete-btn"><i class="fas fa-times-circle"></i></span>
+            </div>
+
+            <div class="cart-item-image">
+                <img src="images/Snapper-Medium-Whole.jpg" alt="" />
+            </div>
+
+            <div class="cart-item-description">
+                <span class="item-category">Red Emperor</span>
+                <span></span>
+                <span></span>
+            </div>
+
+            <div class="cart-item-quantity">
+                <button class="minus-btn" type="button" name="button">
+                    <i class="far fa-minus-square"></i>
+                </button>
+                <input class="quantity-input" type="number" name="quantitiy-btn" value="1">
+                <button class="plus-btn" type="button" name="button">
+                    <i class="far fa-plus-square"></i>
+                </button>
+            </div>
+
+            <p>Price: $<span class="cart-item-price">50.00</span></p>
+        </div>
+
+        <div class="cart-item">
+
+            <div class="cart-item-button-wrapper">
+                <span class="cart-item-delete-btn"><i class="fas fa-times-circle"></i></span>
+            </div>
+
+            <div class="cart-item-image">
+                <img src="images/Snapper-Medium-Whole.jpg" alt="" />
+            </div>
+
+            <div class="cart-item-description">
+                <span class="item-category">Red Emperor</span>
+                <span></span>
+                <span></span>
+            </div>
+
+            <div class="cart-item-quantity">
+                <button class="minus-btn" type="button" name="button">
+                    <i class="far fa-minus-square"></i>
+                </button>
+                <input class="quantity-input" type="number" name="quantitiy-btn" value="1">
+                <button class="plus-btn" type="button" name="button">
+                    <i class="far fa-plus-square"></i>
+                </button>
+            </div>
+
+            <p>Price: $<span class="cart-item-price">50.00</span></p>
+        </div>
+
+        <div class="cart-item">
+
+            <div class="cart-item-button-wrapper">
+                <span class="cart-item-delete-btn"><i class="fas fa-times-circle"></i></span>
+            </div>
+
+            <div class="cart-item-image">
+                <img src="images/Snapper-Medium-Whole.jpg" alt="" />
+            </div>
+
+            <div class="cart-item-description">
+                <span class="item-category">Red Emperor</span>
+                <span></span>
+                <span></span>
+            </div>
+
+            <div class="cart-item-quantity">
+                <button class="minus-btn" type="button" name="button">
+                    <i class="far fa-minus-square"></i>
+                </button>
+                <input class="quantity-input" type="number" name="quantitiy-btn" value="1">
+                <button class="plus-btn" type="button" name="button">
+                    <i class="far fa-plus-square"></i>
+                </button>
+            </div>
+
+            <p>Price: $<span class="cart-item-price">50.00</span></p>
+        </div>
+
+        <div class="cart-item">
+
+            <div class="cart-item-button-wrapper">
+                <span class="cart-item-delete-btn"><i class="fas fa-times-circle"></i></span>
+            </div>
+
+            <div class="cart-item-image">
+                <img src="images/Snapper-Medium-Whole.jpg" alt="" />
+            </div>
+
+            <div class="cart-item-description">
+                <span class="item-category">Red Emperor</span>
+                <span></span>
+                <span></span>
+            </div>
+
+            <div class="cart-item-quantity">
+                <button class="minus-btn" type="button" name="button">
+                    <i class="far fa-minus-square"></i>
+                </button>
+                <input class="quantity-input" type="number" name="quantitiy" value="1">
+                <button class="plus-btn" type="button" name="button">
+                    <i class="far fa-plus-square"></i>
+                </button>
+            </div>
+
+            <p>Price: $<span class="cart-item-price">50.00</span></p>
+        </div>
+
+
+
+
+        <div class="total-section">
+            <span>Total</span>
+            <span id="total-price">0</span>
+        </div>
+
+    </div>
+
+    <div class="delivery-details">
+        <!-- Title -->
+        <div class="cart-title">
+            Billing Details
+        </div>
+
+        <form id="delivery-form" class="delivery-form flex-center-style" action="post">
+
+            <h3>Customer Info</h3>
+
+            <label for="fname">Full Name:</label>
+            <input type="text" id="fullname" name="fullname">
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email">
+            <label for="phone-number">Phone number:</label>
+            <input type="number" id="phone-number" name="phone-number">
+
+            <h3>Billing Address</h3>
+
+
+
+            <label for="adr">Address:</label>
+            <input type="text" id="adr" name="address">
+            <label for="city">City:</label>
+            <input type="text" id="city" name="city">
+            <label for="state">State:</label>
+            <input type="text" id="state" name="state">
+            <label for="postcode">Post-code:</label>
+            <input type="number" id="pcode" name="postcode">
+
+
+
+            <div class="delivery-radios">
+
+                <div class="pick-up-box">
+                    <input type="radio" name="delivery-method" id="pickup">
+                    <label for="pickup">Pick-up</label>
+                </div>
+
+                <div class="delivery-box">
+                    <input type="radio" name="delivery-method" id="delivery" checked>
+                    <label for="delivery">Delivery</label>
+                </div>
+
+            </div>
+
+            <div class="checkout-buttons">
+                <label for="checkout-btn" class="checkout flex-center-style">
+                    <input type="submit" value="Checkout" class="btn" name="checkout-btn">
+                </label>
+
+                <div class="cont-shopping flex-center-style">
+                    <a href="">Continue shopping <i class="fas fa-arrow-alt-circle-right"></i></i></a>
+                </div>
+
+            </div>
+        </form>
+    </div>

@@ -1,0 +1,45 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Baloo+Tamma+2&family=Lobster&family=Lobster+Two:ital@1&family=Roboto:wght@300&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/ce8fd2f589.js" crossorigin="anonymous"></script>
+    <!-- Link Swiper's CSS -->
+    <link rel="stylesheet" href="~/css/Seafresh.css">
+    <link rel="stylesheet" href="~/css/swiper.css">
+
+
+
+
+    <title>Seafresh FishMarket</title>
+</head>
+
+<body>
+
+    @Html.Partial("_SeafreshHeaderPartial")
+
+        <div class="main-content">
+
+
+            <div class="productMenu">
+
+                <a href="@Url.Action("index", "SeafreshStore")" target="_self" alt="Whole Fish"><img src="~/Icons/004-fish.png">Whole</a>
+                <a href="@Url.Action("index", "SeafreshStore")" target="_self" alt="Fish Fillets"><img src="~/Icons/008-sushi-2.png">Fillet</a>
+                <a href="@Url.Action("index", "SeafreshStore")" target="_self" alt="Crustaceans"><img src="~/Icons/001-mussel.png">Shellfish</a>
+                <a href="@Url.Action("index", "SeafreshStore")" target="_self" alt="Shellfish"><img src="~/Icons/002-crab.png">Crustaceans</a>
+                <a href="@Url.Action("index", "SeafreshStore")" target="_self" alt="Caviar"><img src="~/Icons/007-caviar.png">Caviar</a>
+                <a href="@Url.Action("index", "SeafreshStore")" target="_self" alt="Sushi"><img src="~/Icons/006-sushi-1.png">Sushi</a>
+
+            </div>
+
+            @RenderBody()
+
+        </div>
+    <script rel="javascript/text" src="~/js/swiper.js"></script>
+    <script rel="javascript/text" src="~/js/Seafresh.js"></script>
+</body>
+
+</html>

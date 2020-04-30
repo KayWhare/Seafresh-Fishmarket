@@ -1,0 +1,25 @@
+﻿@using ShopApp.Models
+@{
+    var cartItems = (List<CartItem>)ViewData["CartItems"];
+    var totalCartItemQuantities = cartItems.Sum(ci => ci.Quantity);
+}
+
+<div>
+    <h1>Basket</h1>
+    @if (totalCartItemQuantities == 0)
+    {
+        <h4>No items in cart</h4>
+    }
+    else
+    {
+        foreach (var item in cartItems)
+        {
+            <form action="/Home/Delete" method="POST">
+                <strong>@item.Product.Title</strong> @($"x{item.Quantity}")          
+                <input type="hidden" name="ProductId" value="@item.ProductId"/>
+                <input type="submit" value="Remove"/>
+            </form>
+        }
+        <h4>TOTAL = @totalCartItemQuantities items</h4>
+    }
+</div>

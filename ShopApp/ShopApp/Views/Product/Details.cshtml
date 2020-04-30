@@ -1,0 +1,44 @@
+﻿@using ShopApp.Models
+
+@{
+    var product = (Product)ViewData["Product"];
+    var cartItems = (List<CartItem>)ViewData["CartItems"];
+}
+
+<a href="/Home/Index"><< Back</a>
+<section class="product-section">
+    <div class="validation-summary">
+        @Html.ValidationSummary()
+    </div>
+    <div class="product-container">
+        @{
+            var cartItemProduct = cartItems.SingleOrDefault(ci => ci.ProductId == product.Id);
+            var quantity = 0;
+            if (cartItemProduct != null)
+            {
+                quantity = cartItemProduct.Quantity;
+            }
+
+            <div class="product-item">
+                <h2>@product.Title</h2>
+                <p>
+                    @product.Description
+                </p>
+                <p>
+                    $@product.Price
+                </p>
+                <div class="product-item-add">
+                    <form action="/Home/Index" method="POST">
+                        <input type="hidden" name="ProductId" value="@product.Id" />
+                        <input type="number" name="Quantity" value="@quantity" />
+                        <input type="submit" value="Add to Cart" />
+                    </form>
+                </div>
+            </div>
+
+        }
+    </div>
+    <aside>
+        @Html.Partial("_BasketSummaryPartial")
+    </aside>
+</section>

@@ -1,0 +1,98 @@
+﻿<div class="container">
+    <div class="header" id="nav">
+        <div id='hamburger'>
+            <input type="checkbox" class="openSidebarMenu" id="openSidebarMenu">
+            <label for="openSidebarMenu" class="sidebarIconToggle">
+                <div class="spinner diagonal part-1"></div>
+                <div class="spinner horizontal"></div>
+                <div class="spinner diagonal part-2"></div>
+            </label>
+            <label id="menuLabel" for="openSidebarMenu">Menu</label>
+        </div>
+
+        <div class="back-shader">
+            <img src="/images/newlogoWhite.png" id="logo-sm" alt="">
+        </div>
+
+        <form action="" class="search-box">
+            <input type="text" class="text search-input" placeholder="Type here to search..." />
+        </form>
+        <label for="search-input" id="searchIcon" href=""><i class="fas fa-search"></i></label>
+        <a id="cartLink" href="@Url.Action("index", "SeafreshCart")"><i class="fas fa-shopping-cart"></i></a>
+    </div>
+
+    <div id="sidebarMenu" class="">
+        <ul class="sidebarMenuInner">
+            <li><a href="@Url.Action("index", "SeafreshHome")">Home</a></li>
+            <li><a href="">Link2</a></li>
+            <li><a href="">Link3</a></li>
+            <li><a href="">About Us</a></li>
+            <li><a href="">Contact</a></li>
+        </ul>
+
+        <br>
+
+        <ul id="sidebarCategories" class="sidebarMenuInner">
+            <li>
+                <h4>Product Categories</h4>
+            </li>
+            <li><a href="shop.html">Whole</a></li>
+            <li><a href="shop.html">Fillet</a></li>
+            <li><a href="shop.html">Crustaceans</a></li>
+            <li><a href="shop.html">Shellfish</a></li>
+            <li><a href="shop.html">Caviar</a></li>
+            <li><a href="shop.html">Sushi</a></li>
+
+        </ul>
+
+    </div>
+
+    <div class="cart-quickview">
+        <div class="quickview-container">
+
+            <div class="cart-item">
+
+                <div class="cart-item-button-wrapper">
+                    <span class="cart-item-delete-btn"><i class="fas fa-times-circle"></i></span>
+                </div>
+
+                <div class="cart-item-image">
+                    <img src="~/images/Snapper-Medium-Whole.jpg" alt="" />
+                </div>
+
+                <div class="cart-item-description">
+                    <span class="item-category">Red Emperor</span>
+                    <span></span>
+                    <span></span>
+                </div>
+
+                <div class="cart-item-quantity">
+                    <button class="minus-btn" type="button" name="button">
+                        <i class="far fa-minus-square"></i>
+                    </button>
+                    <input type="number" name="quantitiy-btn" value="1">
+                    <button class="plus-btn" type="button" name="button">
+                        <i class="far fa-plus-square"></i>
+                    </button>
+                </div>
+
+                <span class="cart-item-price">$50.00</span>
+
+            </div>
+
+            <div class="total-section">
+                <span>Total</span>
+                <span class="total-price">$200.00</span>
+            </div>
+
+        </div>
+    </div>
+
+    <div class="banner-outer">
+        <div class="banner">
+            <img src="~/images/newlogoWhite.png" id="logo" alt="">
+
+            <h4>Now delivering</h4>
+            <input type="button" value="Details">
+        </div>
+    </div>
