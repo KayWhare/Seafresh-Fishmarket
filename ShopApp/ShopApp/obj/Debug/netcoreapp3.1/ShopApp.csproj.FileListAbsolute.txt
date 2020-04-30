@@ -1,0 +1,304 @@
+/Users/kwhare/Projects/ShopApp/ShopApp/bin/Debug/netcoreapp3.1/appsettings.Development.json
+/Users/kwhare/Projects/ShopApp/ShopApp/bin/Debug/netcoreapp3.1/Properties/launchSettings.json
+/Users/kwhare/Projects/ShopApp/ShopApp/bin/Debug/netcoreapp3.1/appsettings.json
+/Users/kwhare/Projects/ShopApp/ShopApp/bin/Debug/netcoreapp3.1/ShopApp.deps.json
+/Users/kwhare/Projects/ShopApp/ShopApp/bin/Debug/netcoreapp3.1/ShopApp.runtimeconfig.json
+/Users/kwhare/Projects/ShopApp/ShopApp/bin/Debug/netcoreapp3.1/ShopApp.runtimeconfig.dev.json
+/Users/kwhare/Projects/ShopApp/ShopApp/bin/Debug/netcoreapp3.1/ShopApp.dll
+/Users/kwhare/Projects/ShopApp/ShopApp/bin/Debug/netcoreapp3.1/ShopApp.pdb
+/Users/kwhare/Projects/ShopApp/ShopApp/bin/Debug/netcoreapp3.1/ShopApp.Views.dll
+/Users/kwhare/Projects/ShopApp/ShopApp/bin/Debug/netcoreapp3.1/ShopApp.Views.pdb
+/Users/kwhare/Projects/ShopApp/ShopApp/bin/Debug/netcoreapp3.1/BCrypt.Net-Next.dll
+/Users/kwhare/Projects/ShopApp/ShopApp/bin/Debug/netcoreapp3.1/Microsoft.AspNetCore.Razor.Language.dll
+/Users/kwhare/Projects/ShopApp/ShopApp/bin/Debug/netcoreapp3.1/Microsoft.Bcl.AsyncInterfaces.dll
+/Users/kwhare/Projects/ShopApp/ShopApp/bin/Debug/netcoreapp3.1/Microsoft.Bcl.HashCode.dll
+/Users/kwhare/Projects/ShopApp/ShopApp/bin/Debug/netcoreapp3.1/Microsoft.CodeAnalysis.dll
+/Users/kwhare/Projects/ShopApp/ShopApp/bin/Debug/netcoreapp3.1/Microsoft.CodeAnalysis.CSharp.dll
+/Users/kwhare/Projects/ShopApp/ShopApp/bin/Debug/netcoreapp3.1/Microsoft.CodeAnalysis.CSharp.Workspaces.dll
+/Users/kwhare/Projects/ShopApp/ShopApp/bin/Debug/netcoreapp3.1/Microsoft.CodeAnalysis.Razor.dll
+/Users/kwhare/Projects/ShopApp/ShopApp/bin/Debug/netcoreapp3.1/Microsoft.CodeAnalysis.Workspaces.dll
+/Users/kwhare/Projects/ShopApp/ShopApp/bin/Debug/netcoreapp3.1/Microsoft.Data.SqlClient.dll
+/Users/kwhare/Projects/ShopApp/ShopApp/bin/Debug/netcoreapp3.1/Microsoft.EntityFrameworkCore.dll
+/Users/kwhare/Projects/ShopApp/ShopApp/bin/Debug/netcoreapp3.1/Microsoft.EntityFrameworkCore.Abstractions.dll
+/Users/kwhare/Projects/ShopApp/ShopApp/bin/Debug/netcoreapp3.1/Microsoft.EntityFrameworkCore.Design.dll
+/Users/kwhare/Projects/ShopApp/ShopApp/bin/Debug/netcoreapp3.1/Microsoft.EntityFrameworkCore.Relational.dll
+/Users/kwhare/Projects/ShopApp/ShopApp/bin/Debug/netcoreapp3.1/Microsoft.EntityFrameworkCore.SqlServer.dll
+/Users/kwhare/Projects/ShopApp/ShopApp/bin/Debug/netcoreapp3.1/Microsoft.Extensions.Caching.Abstractions.dll
+/Users/kwhare/Projects/ShopApp/ShopApp/bin/Debug/netcoreapp3.1/Microsoft.Extensions.Caching.Memory.dll
+/Users/kwhare/Projects/ShopApp/ShopApp/bin/Debug/netcoreapp3.1/Microsoft.Extensions.Configuration.dll
+/Users/kwhare/Projects/ShopApp/ShopApp/bin/Debug/netcoreapp3.1/Microsoft.Extensions.Configuration.Abstractions.dll
+/Users/kwhare/Projects/ShopApp/ShopApp/bin/Debug/netcoreapp3.1/Microsoft.Extensions.Configuration.Binder.dll
+/Users/kwhare/Projects/ShopApp/ShopApp/bin/Debug/netcoreapp3.1/Microsoft.Extensions.DependencyInjection.dll
+/Users/kwhare/Projects/ShopApp/ShopApp/bin/Debug/netcoreapp3.1/Microsoft.Extensions.DependencyInjection.Abstractions.dll
+/Users/kwhare/Projects/ShopApp/ShopApp/bin/Debug/netcoreapp3.1/Microsoft.Extensions.Logging.dll
+/Users/kwhare/Projects/ShopApp/ShopApp/bin/Debug/netcoreapp3.1/Microsoft.Extensions.Logging.Abstractions.dll
+/Users/kwhare/Projects/ShopApp/ShopApp/bin/Debug/netcoreapp3.1/Microsoft.Extensions.Options.dll
+/Users/kwhare/Projects/ShopApp/ShopApp/bin/Debug/netcoreapp3.1/Microsoft.Extensions.Primitives.dll
+/Users/kwhare/Projects/ShopApp/ShopApp/bin/Debug/netcoreapp3.1/Microsoft.Identity.Client.dll
+/Users/kwhare/Projects/ShopApp/ShopApp/bin/Debug/netcoreapp3.1/Microsoft.VisualStudio.Web.CodeGeneration.dll
+/Users/kwhare/Projects/ShopApp/ShopApp/bin/Debug/netcoreapp3.1/Microsoft.VisualStudio.Web.CodeGeneration.Contracts.dll
+/Users/kwhare/Projects/ShopApp/ShopApp/bin/Debug/netcoreapp3.1/Microsoft.VisualStudio.Web.CodeGeneration.Core.dll
+/Users/kwhare/Projects/ShopApp/ShopApp/bin/Debug/netcoreapp3.1/dotnet-aspnet-codegenerator-design.dll
+/Users/kwhare/Projects/ShopApp/ShopApp/bin/Debug/netcoreapp3.1/Microsoft.VisualStudio.Web.CodeGeneration.EntityFrameworkCore.dll
+/Users/kwhare/Projects/ShopApp/ShopApp/bin/Debug/netcoreapp3.1/Microsoft.VisualStudio.Web.CodeGeneration.Templating.dll
+/Users/kwhare/Projects/ShopApp/ShopApp/bin/Debug/netcoreapp3.1/Microsoft.VisualStudio.Web.CodeGeneration.Utils.dll
+/Users/kwhare/Projects/ShopApp/ShopApp/bin/Debug/netcoreapp3.1/Microsoft.VisualStudio.Web.CodeGenerators.Mvc.dll
+/Users/kwhare/Projects/ShopApp/ShopApp/bin/Debug/netcoreapp3.1/Newtonsoft.Json.dll
+/Users/kwhare/Projects/ShopApp/ShopApp/bin/Debug/netcoreapp3.1/NuGet.Frameworks.dll
+/Users/kwhare/Projects/ShopApp/ShopApp/bin/Debug/netcoreapp3.1/Stripe.net.dll
+/Users/kwhare/Projects/ShopApp/ShopApp/bin/Debug/netcoreapp3.1/System.Composition.AttributedModel.dll
+/Users/kwhare/Projects/ShopApp/ShopApp/bin/Debug/netcoreapp3.1/System.Composition.Convention.dll
+/Users/kwhare/Projects/ShopApp/ShopApp/bin/Debug/netcoreapp3.1/System.Composition.Hosting.dll
+/Users/kwhare/Projects/ShopApp/ShopApp/bin/Debug/netcoreapp3.1/System.Composition.Runtime.dll
+/Users/kwhare/Projects/ShopApp/ShopApp/bin/Debug/netcoreapp3.1/System.Composition.TypedParts.dll
+/Users/kwhare/Projects/ShopApp/ShopApp/bin/Debug/netcoreapp3.1/System.Configuration.ConfigurationManager.dll
+/Users/kwhare/Projects/ShopApp/ShopApp/bin/Debug/netcoreapp3.1/System.Runtime.Caching.dll
+/Users/kwhare/Projects/ShopApp/ShopApp/bin/Debug/netcoreapp3.1/System.Security.Cryptography.ProtectedData.dll
+/Users/kwhare/Projects/ShopApp/ShopApp/bin/Debug/netcoreapp3.1/cs/Microsoft.CodeAnalysis.resources.dll
+/Users/kwhare/Projects/ShopApp/ShopApp/bin/Debug/netcoreapp3.1/de/Microsoft.CodeAnalysis.resources.dll
+/Users/kwhare/Projects/ShopApp/ShopApp/bin/Debug/netcoreapp3.1/es/Microsoft.CodeAnalysis.resources.dll
+/Users/kwhare/Projects/ShopApp/ShopApp/bin/Debug/netcoreapp3.1/fr/Microsoft.CodeAnalysis.resources.dll
+/Users/kwhare/Projects/ShopApp/ShopApp/bin/Debug/netcoreapp3.1/it/Microsoft.CodeAnalysis.resources.dll
+/Users/kwhare/Projects/ShopApp/ShopApp/bin/Debug/netcoreapp3.1/ja/Microsoft.CodeAnalysis.resources.dll
+/Users/kwhare/Projects/ShopApp/ShopApp/bin/Debug/netcoreapp3.1/ko/Microsoft.CodeAnalysis.resources.dll
+/Users/kwhare/Projects/ShopApp/ShopApp/bin/Debug/netcoreapp3.1/pl/Microsoft.CodeAnalysis.resources.dll
+/Users/kwhare/Projects/ShopApp/ShopApp/bin/Debug/netcoreapp3.1/pt-BR/Microsoft.CodeAnalysis.resources.dll
+/Users/kwhare/Projects/ShopApp/ShopApp/bin/Debug/netcoreapp3.1/ru/Microsoft.CodeAnalysis.resources.dll
+/Users/kwhare/Projects/ShopApp/ShopApp/bin/Debug/netcoreapp3.1/tr/Microsoft.CodeAnalysis.resources.dll
+/Users/kwhare/Projects/ShopApp/ShopApp/bin/Debug/netcoreapp3.1/zh-Hans/Microsoft.CodeAnalysis.resources.dll
+/Users/kwhare/Projects/ShopApp/ShopApp/bin/Debug/netcoreapp3.1/zh-Hant/Microsoft.CodeAnalysis.resources.dll
+/Users/kwhare/Projects/ShopApp/ShopApp/bin/Debug/netcoreapp3.1/cs/Microsoft.CodeAnalysis.CSharp.resources.dll
+/Users/kwhare/Projects/ShopApp/ShopApp/bin/Debug/netcoreapp3.1/de/Microsoft.CodeAnalysis.CSharp.resources.dll
+/Users/kwhare/Projects/ShopApp/ShopApp/bin/Debug/netcoreapp3.1/es/Microsoft.CodeAnalysis.CSharp.resources.dll
+/Users/kwhare/Projects/ShopApp/ShopApp/bin/Debug/netcoreapp3.1/fr/Microsoft.CodeAnalysis.CSharp.resources.dll
+/Users/kwhare/Projects/ShopApp/ShopApp/bin/Debug/netcoreapp3.1/it/Microsoft.CodeAnalysis.CSharp.resources.dll
+/Users/kwhare/Projects/ShopApp/ShopApp/bin/Debug/netcoreapp3.1/ja/Microsoft.CodeAnalysis.CSharp.resources.dll
+/Users/kwhare/Projects/ShopApp/ShopApp/bin/Debug/netcoreapp3.1/ko/Microsoft.CodeAnalysis.CSharp.resources.dll
+/Users/kwhare/Projects/ShopApp/ShopApp/bin/Debug/netcoreapp3.1/pl/Microsoft.CodeAnalysis.CSharp.resources.dll
+/Users/kwhare/Projects/ShopApp/ShopApp/bin/Debug/netcoreapp3.1/pt-BR/Microsoft.CodeAnalysis.CSharp.resources.dll
+/Users/kwhare/Projects/ShopApp/ShopApp/bin/Debug/netcoreapp3.1/ru/Microsoft.CodeAnalysis.CSharp.resources.dll
+/Users/kwhare/Projects/ShopApp/ShopApp/bin/Debug/netcoreapp3.1/tr/Microsoft.CodeAnalysis.CSharp.resources.dll
+/Users/kwhare/Projects/ShopApp/ShopApp/bin/Debug/netcoreapp3.1/zh-Hans/Microsoft.CodeAnalysis.CSharp.resources.dll
+/Users/kwhare/Projects/ShopApp/ShopApp/bin/Debug/netcoreapp3.1/zh-Hant/Microsoft.CodeAnalysis.CSharp.resources.dll
+/Users/kwhare/Projects/ShopApp/ShopApp/bin/Debug/netcoreapp3.1/cs/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+/Users/kwhare/Projects/ShopApp/ShopApp/bin/Debug/netcoreapp3.1/de/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+/Users/kwhare/Projects/ShopApp/ShopApp/bin/Debug/netcoreapp3.1/es/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+/Users/kwhare/Projects/ShopApp/ShopApp/bin/Debug/netcoreapp3.1/fr/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+/Users/kwhare/Projects/ShopApp/ShopApp/bin/Debug/netcoreapp3.1/it/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+/Users/kwhare/Projects/ShopApp/ShopApp/bin/Debug/netcoreapp3.1/ja/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+/Users/kwhare/Projects/ShopApp/ShopApp/bin/Debug/netcoreapp3.1/ko/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+/Users/kwhare/Projects/ShopApp/ShopApp/bin/Debug/netcoreapp3.1/pl/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+/Users/kwhare/Projects/ShopApp/ShopApp/bin/Debug/netcoreapp3.1/pt-BR/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+/Users/kwhare/Projects/ShopApp/ShopApp/bin/Debug/netcoreapp3.1/ru/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+/Users/kwhare/Projects/ShopApp/ShopApp/bin/Debug/netcoreapp3.1/tr/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+/Users/kwhare/Projects/ShopApp/ShopApp/bin/Debug/netcoreapp3.1/zh-Hans/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+/Users/kwhare/Projects/ShopApp/ShopApp/bin/Debug/netcoreapp3.1/zh-Hant/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+/Users/kwhare/Projects/ShopApp/ShopApp/bin/Debug/netcoreapp3.1/cs/Microsoft.CodeAnalysis.Workspaces.resources.dll
+/Users/kwhare/Projects/ShopApp/ShopApp/bin/Debug/netcoreapp3.1/de/Microsoft.CodeAnalysis.Workspaces.resources.dll
+/Users/kwhare/Projects/ShopApp/ShopApp/bin/Debug/netcoreapp3.1/es/Microsoft.CodeAnalysis.Workspaces.resources.dll
+/Users/kwhare/Projects/ShopApp/ShopApp/bin/Debug/netcoreapp3.1/fr/Microsoft.CodeAnalysis.Workspaces.resources.dll
+/Users/kwhare/Projects/ShopApp/ShopApp/bin/Debug/netcoreapp3.1/it/Microsoft.CodeAnalysis.Workspaces.resources.dll
+/Users/kwhare/Projects/ShopApp/ShopApp/bin/Debug/netcoreapp3.1/ja/Microsoft.CodeAnalysis.Workspaces.resources.dll
+/Users/kwhare/Projects/ShopApp/ShopApp/bin/Debug/netcoreapp3.1/ko/Microsoft.CodeAnalysis.Workspaces.resources.dll
+/Users/kwhare/Projects/ShopApp/ShopApp/bin/Debug/netcoreapp3.1/pl/Microsoft.CodeAnalysis.Workspaces.resources.dll
+/Users/kwhare/Projects/ShopApp/ShopApp/bin/Debug/netcoreapp3.1/pt-BR/Microsoft.CodeAnalysis.Workspaces.resources.dll
+/Users/kwhare/Projects/ShopApp/ShopApp/bin/Debug/netcoreapp3.1/ru/Microsoft.CodeAnalysis.Workspaces.resources.dll
+/Users/kwhare/Projects/ShopApp/ShopApp/bin/Debug/netcoreapp3.1/tr/Microsoft.CodeAnalysis.Workspaces.resources.dll
+/Users/kwhare/Projects/ShopApp/ShopApp/bin/Debug/netcoreapp3.1/zh-Hans/Microsoft.CodeAnalysis.Workspaces.resources.dll
+/Users/kwhare/Projects/ShopApp/ShopApp/bin/Debug/netcoreapp3.1/zh-Hant/Microsoft.CodeAnalysis.Workspaces.resources.dll
+/Users/kwhare/Projects/ShopApp/ShopApp/bin/Debug/netcoreapp3.1/runtimes/unix/lib/netcoreapp2.1/Microsoft.Data.SqlClient.dll
+/Users/kwhare/Projects/ShopApp/ShopApp/bin/Debug/netcoreapp3.1/runtimes/win/lib/netcoreapp2.1/Microsoft.Data.SqlClient.dll
+/Users/kwhare/Projects/ShopApp/ShopApp/bin/Debug/netcoreapp3.1/runtimes/win-arm64/native/sni.dll
+/Users/kwhare/Projects/ShopApp/ShopApp/bin/Debug/netcoreapp3.1/runtimes/win-x64/native/sni.dll
+/Users/kwhare/Projects/ShopApp/ShopApp/bin/Debug/netcoreapp3.1/runtimes/win-x86/native/sni.dll
+/Users/kwhare/Projects/ShopApp/ShopApp/bin/Debug/netcoreapp3.1/runtimes/unix/lib/netcoreapp2.0/System.Runtime.Caching.dll
+/Users/kwhare/Projects/ShopApp/ShopApp/bin/Debug/netcoreapp3.1/runtimes/win/lib/netcoreapp2.0/System.Runtime.Caching.dll
+/Users/kwhare/Projects/ShopApp/ShopApp/bin/Debug/netcoreapp3.1/runtimes/win/lib/netstandard2.0/System.Security.Cryptography.ProtectedData.dll
+/Users/kwhare/Projects/ShopApp/ShopApp/obj/Debug/netcoreapp3.1/ShopApp.csprojAssemblyReference.cache
+/Users/kwhare/Projects/ShopApp/ShopApp/obj/Debug/netcoreapp3.1/ShopApp.csproj.CoreCompileInputs.cache
+/Users/kwhare/Projects/ShopApp/ShopApp/obj/Debug/netcoreapp3.1/ShopApp.MvcApplicationPartsAssemblyInfo.cache
+/Users/kwhare/Projects/ShopApp/ShopApp/obj/Debug/netcoreapp3.1/ShopApp.RazorAssemblyInfo.cache
+/Users/kwhare/Projects/ShopApp/ShopApp/obj/Debug/netcoreapp3.1/ShopApp.RazorAssemblyInfo.cs
+/Users/kwhare/Projects/ShopApp/ShopApp/obj/Debug/netcoreapp3.1/ShopApp.AssemblyInfoInputs.cache
+/Users/kwhare/Projects/ShopApp/ShopApp/obj/Debug/netcoreapp3.1/ShopApp.AssemblyInfo.cs
+/Users/kwhare/Projects/ShopApp/ShopApp/obj/Debug/netcoreapp3.1/ShopApp.TagHelpers.input.cache
+/Users/kwhare/Projects/ShopApp/ShopApp/obj/Debug/netcoreapp3.1/ShopApp.TagHelpers.output.cache
+/Users/kwhare/Projects/ShopApp/ShopApp/obj/Debug/netcoreapp3.1/ShopApp.RazorCoreGenerate.cache
+/Users/kwhare/Projects/ShopApp/ShopApp/obj/Debug/netcoreapp3.1/Razor/Views/Cart/Index.cshtml.g.cs
+/Users/kwhare/Projects/ShopApp/ShopApp/obj/Debug/netcoreapp3.1/Razor/Views/File/Index.cshtml.g.cs
+/Users/kwhare/Projects/ShopApp/ShopApp/obj/Debug/netcoreapp3.1/Razor/Views/Home/Index.cshtml.g.cs
+/Users/kwhare/Projects/ShopApp/ShopApp/obj/Debug/netcoreapp3.1/Razor/Views/Product/Details.cshtml.g.cs
+/Users/kwhare/Projects/ShopApp/ShopApp/obj/Debug/netcoreapp3.1/Razor/Views/Shared/_BasketSummaryPartial.cshtml.g.cs
+/Users/kwhare/Projects/ShopApp/ShopApp/obj/Debug/netcoreapp3.1/Razor/Views/Shared/_Layout.cshtml.g.cs
+/Users/kwhare/Projects/ShopApp/ShopApp/obj/Debug/netcoreapp3.1/Razor/Views/Shared/_UserSummaryPartial.cshtml.g.cs
+/Users/kwhare/Projects/ShopApp/ShopApp/obj/Debug/netcoreapp3.1/Razor/Views/Shared/_ValidationScriptsPartial.cshtml.g.cs
+/Users/kwhare/Projects/ShopApp/ShopApp/obj/Debug/netcoreapp3.1/Razor/Views/User/Index.cshtml.g.cs
+/Users/kwhare/Projects/ShopApp/ShopApp/obj/Debug/netcoreapp3.1/Razor/Views/User/Register.cshtml.g.cs
+/Users/kwhare/Projects/ShopApp/ShopApp/obj/Debug/netcoreapp3.1/Razor/Views/_ViewImports.cshtml.g.cs
+/Users/kwhare/Projects/ShopApp/ShopApp/obj/Debug/netcoreapp3.1/Razor/Views/_ViewStart.cshtml.g.cs
+/Users/kwhare/Projects/ShopApp/ShopApp/obj/Debug/netcoreapp3.1/ShopApp.RazorTargetAssemblyInfo.cache
+/Users/kwhare/Projects/ShopApp/ShopApp/obj/Debug/netcoreapp3.1/ShopApp.RazorTargetAssemblyInfo.cs
+/Users/kwhare/Projects/ShopApp/ShopApp/obj/Debug/netcoreapp3.1/ShopApp.Views.pdb
+/Users/kwhare/Projects/ShopApp/ShopApp/obj/Debug/netcoreapp3.1/ShopApp.csproj.CopyComplete
+/Users/kwhare/Projects/ShopApp/ShopApp/obj/Debug/netcoreapp3.1/staticwebassets/ShopApp.StaticWebAssets.Manifest.cache
+/Users/kwhare/Projects/ShopApp/ShopApp/obj/Debug/netcoreapp3.1/staticwebassets/ShopApp.StaticWebAssets.xml
+/Users/kwhare/Projects/ShopApp/ShopApp/obj/Debug/netcoreapp3.1/ShopApp.dll
+/Users/kwhare/Projects/ShopApp/ShopApp/obj/Debug/netcoreapp3.1/ShopApp.pdb
+/Users/kwhare/Projects/ShopApp/ShopApp/obj/Debug/netcoreapp3.1/ShopApp.genruntimeconfig.cache
+/Users/kwhare/Projects/ShopApp/ShopApp/obj/Debug/netcoreapp3.1/Razor/Views/Shared/_SeafreshLayout.cshtml.g.cs
+/Users/kwhare/Projects/ShopApp/ShopApp/obj/Debug/netcoreapp3.1/Razor/Views/Shared/_SeafreshHeaderPartial.cshtml.g.cs
+/Users/kwhare/Projects/ShopApp/ShopApp/obj/Debug/netcoreapp3.1/Razor/Views/SeafreshCart/Cart.cshtml.g.cs
+/Users/kwhare/Projects/ShopApp/ShopApp/obj/Debug/netcoreapp3.1/Razor/Views/SeafreshHome/Index.cshtml.g.cs
+/Users/kwhare/Projects/ShopApp/ShopApp/obj/Debug/netcoreapp3.1/Razor/Views/SeafreshStore/index.cshtml.g.cs
+/Users/kwhare/Desktop/Dev/Team-2 Repo/ShopApp/ShopApp/bin/Debug/netcoreapp3.1/appsettings.Development.json
+/Users/kwhare/Desktop/Dev/Team-2 Repo/ShopApp/ShopApp/bin/Debug/netcoreapp3.1/appsettings.json
+/Users/kwhare/Desktop/Dev/Team-2 Repo/ShopApp/ShopApp/bin/Debug/netcoreapp3.1/Properties/launchSettings.json
+/Users/kwhare/Desktop/Dev/Team-2 Repo/ShopApp/ShopApp/bin/Debug/netcoreapp3.1/ShopApp.deps.json
+/Users/kwhare/Desktop/Dev/Team-2 Repo/ShopApp/ShopApp/bin/Debug/netcoreapp3.1/ShopApp.runtimeconfig.json
+/Users/kwhare/Desktop/Dev/Team-2 Repo/ShopApp/ShopApp/bin/Debug/netcoreapp3.1/ShopApp.runtimeconfig.dev.json
+/Users/kwhare/Desktop/Dev/Team-2 Repo/ShopApp/ShopApp/bin/Debug/netcoreapp3.1/ShopApp.dll
+/Users/kwhare/Desktop/Dev/Team-2 Repo/ShopApp/ShopApp/bin/Debug/netcoreapp3.1/ShopApp.pdb
+/Users/kwhare/Desktop/Dev/Team-2 Repo/ShopApp/ShopApp/bin/Debug/netcoreapp3.1/ShopApp.Views.dll
+/Users/kwhare/Desktop/Dev/Team-2 Repo/ShopApp/ShopApp/bin/Debug/netcoreapp3.1/ShopApp.Views.pdb
+/Users/kwhare/Desktop/Dev/Team-2 Repo/ShopApp/ShopApp/bin/Debug/netcoreapp3.1/BCrypt.Net-Next.dll
+/Users/kwhare/Desktop/Dev/Team-2 Repo/ShopApp/ShopApp/bin/Debug/netcoreapp3.1/Microsoft.AspNetCore.Razor.Language.dll
+/Users/kwhare/Desktop/Dev/Team-2 Repo/ShopApp/ShopApp/bin/Debug/netcoreapp3.1/Microsoft.Bcl.AsyncInterfaces.dll
+/Users/kwhare/Desktop/Dev/Team-2 Repo/ShopApp/ShopApp/bin/Debug/netcoreapp3.1/Microsoft.Bcl.HashCode.dll
+/Users/kwhare/Desktop/Dev/Team-2 Repo/ShopApp/ShopApp/bin/Debug/netcoreapp3.1/Microsoft.CodeAnalysis.dll
+/Users/kwhare/Desktop/Dev/Team-2 Repo/ShopApp/ShopApp/bin/Debug/netcoreapp3.1/Microsoft.CodeAnalysis.CSharp.dll
+/Users/kwhare/Desktop/Dev/Team-2 Repo/ShopApp/ShopApp/bin/Debug/netcoreapp3.1/Microsoft.CodeAnalysis.CSharp.Workspaces.dll
+/Users/kwhare/Desktop/Dev/Team-2 Repo/ShopApp/ShopApp/bin/Debug/netcoreapp3.1/Microsoft.CodeAnalysis.Razor.dll
+/Users/kwhare/Desktop/Dev/Team-2 Repo/ShopApp/ShopApp/bin/Debug/netcoreapp3.1/Microsoft.CodeAnalysis.Workspaces.dll
+/Users/kwhare/Desktop/Dev/Team-2 Repo/ShopApp/ShopApp/bin/Debug/netcoreapp3.1/Microsoft.Data.SqlClient.dll
+/Users/kwhare/Desktop/Dev/Team-2 Repo/ShopApp/ShopApp/bin/Debug/netcoreapp3.1/Microsoft.EntityFrameworkCore.dll
+/Users/kwhare/Desktop/Dev/Team-2 Repo/ShopApp/ShopApp/bin/Debug/netcoreapp3.1/Microsoft.EntityFrameworkCore.Abstractions.dll
+/Users/kwhare/Desktop/Dev/Team-2 Repo/ShopApp/ShopApp/bin/Debug/netcoreapp3.1/Microsoft.EntityFrameworkCore.Design.dll
+/Users/kwhare/Desktop/Dev/Team-2 Repo/ShopApp/ShopApp/bin/Debug/netcoreapp3.1/Microsoft.EntityFrameworkCore.Relational.dll
+/Users/kwhare/Desktop/Dev/Team-2 Repo/ShopApp/ShopApp/bin/Debug/netcoreapp3.1/Microsoft.EntityFrameworkCore.SqlServer.dll
+/Users/kwhare/Desktop/Dev/Team-2 Repo/ShopApp/ShopApp/bin/Debug/netcoreapp3.1/Microsoft.Extensions.Caching.Abstractions.dll
+/Users/kwhare/Desktop/Dev/Team-2 Repo/ShopApp/ShopApp/bin/Debug/netcoreapp3.1/Microsoft.Extensions.Caching.Memory.dll
+/Users/kwhare/Desktop/Dev/Team-2 Repo/ShopApp/ShopApp/bin/Debug/netcoreapp3.1/Microsoft.Extensions.Configuration.dll
+/Users/kwhare/Desktop/Dev/Team-2 Repo/ShopApp/ShopApp/bin/Debug/netcoreapp3.1/Microsoft.Extensions.Configuration.Abstractions.dll
+/Users/kwhare/Desktop/Dev/Team-2 Repo/ShopApp/ShopApp/bin/Debug/netcoreapp3.1/Microsoft.Extensions.Configuration.Binder.dll
+/Users/kwhare/Desktop/Dev/Team-2 Repo/ShopApp/ShopApp/bin/Debug/netcoreapp3.1/Microsoft.Extensions.DependencyInjection.dll
+/Users/kwhare/Desktop/Dev/Team-2 Repo/ShopApp/ShopApp/bin/Debug/netcoreapp3.1/Microsoft.Extensions.DependencyInjection.Abstractions.dll
+/Users/kwhare/Desktop/Dev/Team-2 Repo/ShopApp/ShopApp/bin/Debug/netcoreapp3.1/Microsoft.Extensions.Logging.dll
+/Users/kwhare/Desktop/Dev/Team-2 Repo/ShopApp/ShopApp/bin/Debug/netcoreapp3.1/Microsoft.Extensions.Logging.Abstractions.dll
+/Users/kwhare/Desktop/Dev/Team-2 Repo/ShopApp/ShopApp/bin/Debug/netcoreapp3.1/Microsoft.Extensions.Options.dll
+/Users/kwhare/Desktop/Dev/Team-2 Repo/ShopApp/ShopApp/bin/Debug/netcoreapp3.1/Microsoft.Extensions.Primitives.dll
+/Users/kwhare/Desktop/Dev/Team-2 Repo/ShopApp/ShopApp/bin/Debug/netcoreapp3.1/Microsoft.Identity.Client.dll
+/Users/kwhare/Desktop/Dev/Team-2 Repo/ShopApp/ShopApp/bin/Debug/netcoreapp3.1/Microsoft.VisualStudio.Web.CodeGeneration.dll
+/Users/kwhare/Desktop/Dev/Team-2 Repo/ShopApp/ShopApp/bin/Debug/netcoreapp3.1/Microsoft.VisualStudio.Web.CodeGeneration.Contracts.dll
+/Users/kwhare/Desktop/Dev/Team-2 Repo/ShopApp/ShopApp/bin/Debug/netcoreapp3.1/Microsoft.VisualStudio.Web.CodeGeneration.Core.dll
+/Users/kwhare/Desktop/Dev/Team-2 Repo/ShopApp/ShopApp/bin/Debug/netcoreapp3.1/dotnet-aspnet-codegenerator-design.dll
+/Users/kwhare/Desktop/Dev/Team-2 Repo/ShopApp/ShopApp/bin/Debug/netcoreapp3.1/Microsoft.VisualStudio.Web.CodeGeneration.EntityFrameworkCore.dll
+/Users/kwhare/Desktop/Dev/Team-2 Repo/ShopApp/ShopApp/bin/Debug/netcoreapp3.1/Microsoft.VisualStudio.Web.CodeGeneration.Templating.dll
+/Users/kwhare/Desktop/Dev/Team-2 Repo/ShopApp/ShopApp/bin/Debug/netcoreapp3.1/Microsoft.VisualStudio.Web.CodeGeneration.Utils.dll
+/Users/kwhare/Desktop/Dev/Team-2 Repo/ShopApp/ShopApp/bin/Debug/netcoreapp3.1/Microsoft.VisualStudio.Web.CodeGenerators.Mvc.dll
+/Users/kwhare/Desktop/Dev/Team-2 Repo/ShopApp/ShopApp/bin/Debug/netcoreapp3.1/Newtonsoft.Json.dll
+/Users/kwhare/Desktop/Dev/Team-2 Repo/ShopApp/ShopApp/bin/Debug/netcoreapp3.1/NuGet.Frameworks.dll
+/Users/kwhare/Desktop/Dev/Team-2 Repo/ShopApp/ShopApp/bin/Debug/netcoreapp3.1/Stripe.net.dll
+/Users/kwhare/Desktop/Dev/Team-2 Repo/ShopApp/ShopApp/bin/Debug/netcoreapp3.1/System.Composition.AttributedModel.dll
+/Users/kwhare/Desktop/Dev/Team-2 Repo/ShopApp/ShopApp/bin/Debug/netcoreapp3.1/System.Composition.Convention.dll
+/Users/kwhare/Desktop/Dev/Team-2 Repo/ShopApp/ShopApp/bin/Debug/netcoreapp3.1/System.Composition.Hosting.dll
+/Users/kwhare/Desktop/Dev/Team-2 Repo/ShopApp/ShopApp/bin/Debug/netcoreapp3.1/System.Composition.Runtime.dll
+/Users/kwhare/Desktop/Dev/Team-2 Repo/ShopApp/ShopApp/bin/Debug/netcoreapp3.1/System.Composition.TypedParts.dll
+/Users/kwhare/Desktop/Dev/Team-2 Repo/ShopApp/ShopApp/bin/Debug/netcoreapp3.1/System.Configuration.ConfigurationManager.dll
+/Users/kwhare/Desktop/Dev/Team-2 Repo/ShopApp/ShopApp/bin/Debug/netcoreapp3.1/System.Runtime.Caching.dll
+/Users/kwhare/Desktop/Dev/Team-2 Repo/ShopApp/ShopApp/bin/Debug/netcoreapp3.1/System.Security.Cryptography.ProtectedData.dll
+/Users/kwhare/Desktop/Dev/Team-2 Repo/ShopApp/ShopApp/bin/Debug/netcoreapp3.1/cs/Microsoft.CodeAnalysis.resources.dll
+/Users/kwhare/Desktop/Dev/Team-2 Repo/ShopApp/ShopApp/bin/Debug/netcoreapp3.1/de/Microsoft.CodeAnalysis.resources.dll
+/Users/kwhare/Desktop/Dev/Team-2 Repo/ShopApp/ShopApp/bin/Debug/netcoreapp3.1/es/Microsoft.CodeAnalysis.resources.dll
+/Users/kwhare/Desktop/Dev/Team-2 Repo/ShopApp/ShopApp/bin/Debug/netcoreapp3.1/fr/Microsoft.CodeAnalysis.resources.dll
+/Users/kwhare/Desktop/Dev/Team-2 Repo/ShopApp/ShopApp/bin/Debug/netcoreapp3.1/it/Microsoft.CodeAnalysis.resources.dll
+/Users/kwhare/Desktop/Dev/Team-2 Repo/ShopApp/ShopApp/bin/Debug/netcoreapp3.1/ja/Microsoft.CodeAnalysis.resources.dll
+/Users/kwhare/Desktop/Dev/Team-2 Repo/ShopApp/ShopApp/bin/Debug/netcoreapp3.1/ko/Microsoft.CodeAnalysis.resources.dll
+/Users/kwhare/Desktop/Dev/Team-2 Repo/ShopApp/ShopApp/bin/Debug/netcoreapp3.1/pl/Microsoft.CodeAnalysis.resources.dll
+/Users/kwhare/Desktop/Dev/Team-2 Repo/ShopApp/ShopApp/bin/Debug/netcoreapp3.1/pt-BR/Microsoft.CodeAnalysis.resources.dll
+/Users/kwhare/Desktop/Dev/Team-2 Repo/ShopApp/ShopApp/bin/Debug/netcoreapp3.1/ru/Microsoft.CodeAnalysis.resources.dll
+/Users/kwhare/Desktop/Dev/Team-2 Repo/ShopApp/ShopApp/bin/Debug/netcoreapp3.1/tr/Microsoft.CodeAnalysis.resources.dll
+/Users/kwhare/Desktop/Dev/Team-2 Repo/ShopApp/ShopApp/bin/Debug/netcoreapp3.1/zh-Hans/Microsoft.CodeAnalysis.resources.dll
+/Users/kwhare/Desktop/Dev/Team-2 Repo/ShopApp/ShopApp/bin/Debug/netcoreapp3.1/zh-Hant/Microsoft.CodeAnalysis.resources.dll
+/Users/kwhare/Desktop/Dev/Team-2 Repo/ShopApp/ShopApp/bin/Debug/netcoreapp3.1/cs/Microsoft.CodeAnalysis.CSharp.resources.dll
+/Users/kwhare/Desktop/Dev/Team-2 Repo/ShopApp/ShopApp/bin/Debug/netcoreapp3.1/de/Microsoft.CodeAnalysis.CSharp.resources.dll
+/Users/kwhare/Desktop/Dev/Team-2 Repo/ShopApp/ShopApp/bin/Debug/netcoreapp3.1/es/Microsoft.CodeAnalysis.CSharp.resources.dll
+/Users/kwhare/Desktop/Dev/Team-2 Repo/ShopApp/ShopApp/bin/Debug/netcoreapp3.1/fr/Microsoft.CodeAnalysis.CSharp.resources.dll
+/Users/kwhare/Desktop/Dev/Team-2 Repo/ShopApp/ShopApp/bin/Debug/netcoreapp3.1/it/Microsoft.CodeAnalysis.CSharp.resources.dll
+/Users/kwhare/Desktop/Dev/Team-2 Repo/ShopApp/ShopApp/bin/Debug/netcoreapp3.1/ja/Microsoft.CodeAnalysis.CSharp.resources.dll
+/Users/kwhare/Desktop/Dev/Team-2 Repo/ShopApp/ShopApp/bin/Debug/netcoreapp3.1/ko/Microsoft.CodeAnalysis.CSharp.resources.dll
+/Users/kwhare/Desktop/Dev/Team-2 Repo/ShopApp/ShopApp/bin/Debug/netcoreapp3.1/pl/Microsoft.CodeAnalysis.CSharp.resources.dll
+/Users/kwhare/Desktop/Dev/Team-2 Repo/ShopApp/ShopApp/bin/Debug/netcoreapp3.1/pt-BR/Microsoft.CodeAnalysis.CSharp.resources.dll
+/Users/kwhare/Desktop/Dev/Team-2 Repo/ShopApp/ShopApp/bin/Debug/netcoreapp3.1/ru/Microsoft.CodeAnalysis.CSharp.resources.dll
+/Users/kwhare/Desktop/Dev/Team-2 Repo/ShopApp/ShopApp/bin/Debug/netcoreapp3.1/tr/Microsoft.CodeAnalysis.CSharp.resources.dll
+/Users/kwhare/Desktop/Dev/Team-2 Repo/ShopApp/ShopApp/bin/Debug/netcoreapp3.1/zh-Hans/Microsoft.CodeAnalysis.CSharp.resources.dll
+/Users/kwhare/Desktop/Dev/Team-2 Repo/ShopApp/ShopApp/bin/Debug/netcoreapp3.1/zh-Hant/Microsoft.CodeAnalysis.CSharp.resources.dll
+/Users/kwhare/Desktop/Dev/Team-2 Repo/ShopApp/ShopApp/bin/Debug/netcoreapp3.1/cs/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+/Users/kwhare/Desktop/Dev/Team-2 Repo/ShopApp/ShopApp/bin/Debug/netcoreapp3.1/de/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+/Users/kwhare/Desktop/Dev/Team-2 Repo/ShopApp/ShopApp/bin/Debug/netcoreapp3.1/es/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+/Users/kwhare/Desktop/Dev/Team-2 Repo/ShopApp/ShopApp/bin/Debug/netcoreapp3.1/fr/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+/Users/kwhare/Desktop/Dev/Team-2 Repo/ShopApp/ShopApp/bin/Debug/netcoreapp3.1/it/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+/Users/kwhare/Desktop/Dev/Team-2 Repo/ShopApp/ShopApp/bin/Debug/netcoreapp3.1/ja/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+/Users/kwhare/Desktop/Dev/Team-2 Repo/ShopApp/ShopApp/bin/Debug/netcoreapp3.1/ko/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+/Users/kwhare/Desktop/Dev/Team-2 Repo/ShopApp/ShopApp/bin/Debug/netcoreapp3.1/pl/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+/Users/kwhare/Desktop/Dev/Team-2 Repo/ShopApp/ShopApp/bin/Debug/netcoreapp3.1/pt-BR/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+/Users/kwhare/Desktop/Dev/Team-2 Repo/ShopApp/ShopApp/bin/Debug/netcoreapp3.1/ru/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+/Users/kwhare/Desktop/Dev/Team-2 Repo/ShopApp/ShopApp/bin/Debug/netcoreapp3.1/tr/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+/Users/kwhare/Desktop/Dev/Team-2 Repo/ShopApp/ShopApp/bin/Debug/netcoreapp3.1/zh-Hans/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+/Users/kwhare/Desktop/Dev/Team-2 Repo/ShopApp/ShopApp/bin/Debug/netcoreapp3.1/zh-Hant/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+/Users/kwhare/Desktop/Dev/Team-2 Repo/ShopApp/ShopApp/bin/Debug/netcoreapp3.1/cs/Microsoft.CodeAnalysis.Workspaces.resources.dll
+/Users/kwhare/Desktop/Dev/Team-2 Repo/ShopApp/ShopApp/bin/Debug/netcoreapp3.1/de/Microsoft.CodeAnalysis.Workspaces.resources.dll
+/Users/kwhare/Desktop/Dev/Team-2 Repo/ShopApp/ShopApp/bin/Debug/netcoreapp3.1/es/Microsoft.CodeAnalysis.Workspaces.resources.dll
+/Users/kwhare/Desktop/Dev/Team-2 Repo/ShopApp/ShopApp/bin/Debug/netcoreapp3.1/fr/Microsoft.CodeAnalysis.Workspaces.resources.dll
+/Users/kwhare/Desktop/Dev/Team-2 Repo/ShopApp/ShopApp/bin/Debug/netcoreapp3.1/it/Microsoft.CodeAnalysis.Workspaces.resources.dll
+/Users/kwhare/Desktop/Dev/Team-2 Repo/ShopApp/ShopApp/bin/Debug/netcoreapp3.1/ja/Microsoft.CodeAnalysis.Workspaces.resources.dll
+/Users/kwhare/Desktop/Dev/Team-2 Repo/ShopApp/ShopApp/bin/Debug/netcoreapp3.1/ko/Microsoft.CodeAnalysis.Workspaces.resources.dll
+/Users/kwhare/Desktop/Dev/Team-2 Repo/ShopApp/ShopApp/bin/Debug/netcoreapp3.1/pl/Microsoft.CodeAnalysis.Workspaces.resources.dll
+/Users/kwhare/Desktop/Dev/Team-2 Repo/ShopApp/ShopApp/bin/Debug/netcoreapp3.1/pt-BR/Microsoft.CodeAnalysis.Workspaces.resources.dll
+/Users/kwhare/Desktop/Dev/Team-2 Repo/ShopApp/ShopApp/bin/Debug/netcoreapp3.1/ru/Microsoft.CodeAnalysis.Workspaces.resources.dll
+/Users/kwhare/Desktop/Dev/Team-2 Repo/ShopApp/ShopApp/bin/Debug/netcoreapp3.1/tr/Microsoft.CodeAnalysis.Workspaces.resources.dll
+/Users/kwhare/Desktop/Dev/Team-2 Repo/ShopApp/ShopApp/bin/Debug/netcoreapp3.1/zh-Hans/Microsoft.CodeAnalysis.Workspaces.resources.dll
+/Users/kwhare/Desktop/Dev/Team-2 Repo/ShopApp/ShopApp/bin/Debug/netcoreapp3.1/zh-Hant/Microsoft.CodeAnalysis.Workspaces.resources.dll
+/Users/kwhare/Desktop/Dev/Team-2 Repo/ShopApp/ShopApp/bin/Debug/netcoreapp3.1/runtimes/unix/lib/netcoreapp2.1/Microsoft.Data.SqlClient.dll
+/Users/kwhare/Desktop/Dev/Team-2 Repo/ShopApp/ShopApp/bin/Debug/netcoreapp3.1/runtimes/win/lib/netcoreapp2.1/Microsoft.Data.SqlClient.dll
+/Users/kwhare/Desktop/Dev/Team-2 Repo/ShopApp/ShopApp/bin/Debug/netcoreapp3.1/runtimes/win-arm64/native/sni.dll
+/Users/kwhare/Desktop/Dev/Team-2 Repo/ShopApp/ShopApp/bin/Debug/netcoreapp3.1/runtimes/win-x64/native/sni.dll
+/Users/kwhare/Desktop/Dev/Team-2 Repo/ShopApp/ShopApp/bin/Debug/netcoreapp3.1/runtimes/win-x86/native/sni.dll
+/Users/kwhare/Desktop/Dev/Team-2 Repo/ShopApp/ShopApp/bin/Debug/netcoreapp3.1/runtimes/unix/lib/netcoreapp2.0/System.Runtime.Caching.dll
+/Users/kwhare/Desktop/Dev/Team-2 Repo/ShopApp/ShopApp/bin/Debug/netcoreapp3.1/runtimes/win/lib/netcoreapp2.0/System.Runtime.Caching.dll
+/Users/kwhare/Desktop/Dev/Team-2 Repo/ShopApp/ShopApp/bin/Debug/netcoreapp3.1/runtimes/win/lib/netstandard2.0/System.Security.Cryptography.ProtectedData.dll
+/Users/kwhare/Desktop/Dev/Team-2 Repo/ShopApp/ShopApp/obj/Debug/netcoreapp3.1/ShopApp.csprojAssemblyReference.cache
+/Users/kwhare/Desktop/Dev/Team-2 Repo/ShopApp/ShopApp/obj/Debug/netcoreapp3.1/ShopApp.csproj.CoreCompileInputs.cache
+/Users/kwhare/Desktop/Dev/Team-2 Repo/ShopApp/ShopApp/obj/Debug/netcoreapp3.1/ShopApp.MvcApplicationPartsAssemblyInfo.cache
+/Users/kwhare/Desktop/Dev/Team-2 Repo/ShopApp/ShopApp/obj/Debug/netcoreapp3.1/ShopApp.RazorAssemblyInfo.cache
+/Users/kwhare/Desktop/Dev/Team-2 Repo/ShopApp/ShopApp/obj/Debug/netcoreapp3.1/ShopApp.RazorAssemblyInfo.cs
+/Users/kwhare/Desktop/Dev/Team-2 Repo/ShopApp/ShopApp/obj/Debug/netcoreapp3.1/ShopApp.AssemblyInfoInputs.cache
+/Users/kwhare/Desktop/Dev/Team-2 Repo/ShopApp/ShopApp/obj/Debug/netcoreapp3.1/ShopApp.AssemblyInfo.cs
+/Users/kwhare/Desktop/Dev/Team-2 Repo/ShopApp/ShopApp/obj/Debug/netcoreapp3.1/ShopApp.TagHelpers.input.cache
+/Users/kwhare/Desktop/Dev/Team-2 Repo/ShopApp/ShopApp/obj/Debug/netcoreapp3.1/ShopApp.TagHelpers.output.cache
+/Users/kwhare/Desktop/Dev/Team-2 Repo/ShopApp/ShopApp/obj/Debug/netcoreapp3.1/ShopApp.RazorCoreGenerate.cache
+/Users/kwhare/Desktop/Dev/Team-2 Repo/ShopApp/ShopApp/obj/Debug/netcoreapp3.1/Razor/Views/Cart/Index.cshtml.g.cs
+/Users/kwhare/Desktop/Dev/Team-2 Repo/ShopApp/ShopApp/obj/Debug/netcoreapp3.1/Razor/Views/File/Index.cshtml.g.cs
+/Users/kwhare/Desktop/Dev/Team-2 Repo/ShopApp/ShopApp/obj/Debug/netcoreapp3.1/Razor/Views/Home/Index.cshtml.g.cs
+/Users/kwhare/Desktop/Dev/Team-2 Repo/ShopApp/ShopApp/obj/Debug/netcoreapp3.1/Razor/Views/Product/Details.cshtml.g.cs
+/Users/kwhare/Desktop/Dev/Team-2 Repo/ShopApp/ShopApp/obj/Debug/netcoreapp3.1/Razor/Views/SeafreshCart/Cart.cshtml.g.cs
+/Users/kwhare/Desktop/Dev/Team-2 Repo/ShopApp/ShopApp/obj/Debug/netcoreapp3.1/Razor/Views/SeafreshHome/Index.cshtml.g.cs
+/Users/kwhare/Desktop/Dev/Team-2 Repo/ShopApp/ShopApp/obj/Debug/netcoreapp3.1/Razor/Views/SeafreshStore/index.cshtml.g.cs
+/Users/kwhare/Desktop/Dev/Team-2 Repo/ShopApp/ShopApp/obj/Debug/netcoreapp3.1/Razor/Views/Shared/_BasketSummaryPartial.cshtml.g.cs
+/Users/kwhare/Desktop/Dev/Team-2 Repo/ShopApp/ShopApp/obj/Debug/netcoreapp3.1/Razor/Views/Shared/_Layout.cshtml.g.cs
+/Users/kwhare/Desktop/Dev/Team-2 Repo/ShopApp/ShopApp/obj/Debug/netcoreapp3.1/Razor/Views/Shared/_SeafreshHeaderPartial.cshtml.g.cs
+/Users/kwhare/Desktop/Dev/Team-2 Repo/ShopApp/ShopApp/obj/Debug/netcoreapp3.1/Razor/Views/Shared/_SeafreshLayout.cshtml.g.cs
+/Users/kwhare/Desktop/Dev/Team-2 Repo/ShopApp/ShopApp/obj/Debug/netcoreapp3.1/Razor/Views/Shared/_UserSummaryPartial.cshtml.g.cs
+/Users/kwhare/Desktop/Dev/Team-2 Repo/ShopApp/ShopApp/obj/Debug/netcoreapp3.1/Razor/Views/Shared/_ValidationScriptsPartial.cshtml.g.cs
+/Users/kwhare/Desktop/Dev/Team-2 Repo/ShopApp/ShopApp/obj/Debug/netcoreapp3.1/Razor/Views/User/Index.cshtml.g.cs
+/Users/kwhare/Desktop/Dev/Team-2 Repo/ShopApp/ShopApp/obj/Debug/netcoreapp3.1/Razor/Views/User/Register.cshtml.g.cs
+/Users/kwhare/Desktop/Dev/Team-2 Repo/ShopApp/ShopApp/obj/Debug/netcoreapp3.1/Razor/Views/_ViewImports.cshtml.g.cs
+/Users/kwhare/Desktop/Dev/Team-2 Repo/ShopApp/ShopApp/obj/Debug/netcoreapp3.1/Razor/Views/_ViewStart.cshtml.g.cs
+/Users/kwhare/Desktop/Dev/Team-2 Repo/ShopApp/ShopApp/obj/Debug/netcoreapp3.1/ShopApp.RazorTargetAssemblyInfo.cache
+/Users/kwhare/Desktop/Dev/Team-2 Repo/ShopApp/ShopApp/obj/Debug/netcoreapp3.1/ShopApp.RazorTargetAssemblyInfo.cs
+/Users/kwhare/Desktop/Dev/Team-2 Repo/ShopApp/ShopApp/obj/Debug/netcoreapp3.1/ShopApp.Views.pdb
+/Users/kwhare/Desktop/Dev/Team-2 Repo/ShopApp/ShopApp/obj/Debug/netcoreapp3.1/ShopApp.csproj.CopyComplete
+/Users/kwhare/Desktop/Dev/Team-2 Repo/ShopApp/ShopApp/obj/Debug/netcoreapp3.1/staticwebassets/ShopApp.StaticWebAssets.Manifest.cache
+/Users/kwhare/Desktop/Dev/Team-2 Repo/ShopApp/ShopApp/obj/Debug/netcoreapp3.1/staticwebassets/ShopApp.StaticWebAssets.xml
+/Users/kwhare/Desktop/Dev/Team-2 Repo/ShopApp/ShopApp/obj/Debug/netcoreapp3.1/ShopApp.dll
+/Users/kwhare/Desktop/Dev/Team-2 Repo/ShopApp/ShopApp/obj/Debug/netcoreapp3.1/ShopApp.pdb
+/Users/kwhare/Desktop/Dev/Team-2 Repo/ShopApp/ShopApp/obj/Debug/netcoreapp3.1/ShopApp.genruntimeconfig.cache

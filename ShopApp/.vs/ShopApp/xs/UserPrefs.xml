@@ -1,0 +1,54 @@
+﻿<Properties StartupConfiguration="{45BDC66C-EABA-4D30-AE32-891E6E68198C}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="ShopApp/Controllers/SeafreshCartController.cs">
+    <Files>
+      <File FileName="ShopApp/Views/Product/Details.cshtml" Line="32" Column="85" />
+      <File FileName="ShopApp/Views/Shared/_ValidationScriptsPartial.cshtml" />
+      <File FileName="ShopApp/Views/Shared/_UserSummaryPartial.cshtml" />
+      <File FileName="ShopApp/Controllers/CartController.cs" />
+      <File FileName="ShopApp/Controllers/SeafreshCartController.cs" Line="27" Column="1" />
+      <File FileName="ShopApp/wwwroot/css/Seafresh.css" />
+      <File FileName="ShopApp/Controllers/SeafreshHomeController.cs" />
+      <File FileName="ShopApp/Controllers/BaseController.cs" />
+      <File FileName="ShopApp/Controllers/FileController.cs" />
+      <File FileName="ShopApp/Controllers/HomeController.cs" />
+      <File FileName="ShopApp/Controllers/ProductController.cs" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="ShopApp" expanded="True">
+            <Node name="ShopApp" expanded="True">
+              <Node name="Controllers" expanded="True">
+                <Node name="SeafreshCartController.cs" selected="True" />
+              </Node>
+              <Node name="Data" expanded="True" />
+              <Node name="Models" expanded="True" />
+              <Node name="Views" expanded="True">
+                <Node name="Cart" expanded="True" />
+                <Node name="Home" expanded="True" />
+                <Node name="Product" expanded="True" />
+                <Node name="SeafreshCart" expanded="True" />
+                <Node name="SeafreshHome" expanded="True" />
+                <Node name="SeafreshStore" expanded="True" />
+                <Node name="Shared" expanded="True" />
+              </Node>
+              <Node name="wwwroot" expanded="True">
+                <Node name="css" expanded="True" />
+                <Node name="js" expanded="True" />
+              </Node>
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.ItemProperties.ShopApp PreferredExecutionTarget="/Applications/Google Chrome.app" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore>
+      <Breakpoint file="/Users/kwhare/Desktop/Dev/Team-2 Repo/ShopApp/ShopApp/Views/Home/Index.cshtml" relfile="ShopApp/Views/Home/Index.cshtml" line="16" column="1" />
+    </BreakpointStore>
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>
