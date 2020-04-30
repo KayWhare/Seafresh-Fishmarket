@@ -9,7 +9,7 @@
 
 <div class="shop-container">
 
-    <h1>Whole Fish</h1>
+    <h1>@products[0].Category</h1>
 
     <div class="product-gallery">
 
@@ -29,7 +29,7 @@
                     @p.Description
                 </p>
 
-                <form action="" method="get">
+                <form action="" method="post">
                     <div class="shop-item-quantity">
                         <input type="hidden" name="ProductID" value="@p.Id">
                         <button class="minus-btn" type="button" name="button">

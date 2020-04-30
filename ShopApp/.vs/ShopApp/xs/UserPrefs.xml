@@ -1,26 +1,25 @@
 ﻿<Properties StartupConfiguration="{45BDC66C-EABA-4D30-AE32-891E6E68198C}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="ShopApp/Controllers/SeafreshCartController.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="ShopApp/Views/SeafreshStore/index.cshtml">
     <Files>
-      <File FileName="ShopApp/Views/Product/Details.cshtml" Line="32" Column="85" />
-      <File FileName="ShopApp/Views/Shared/_ValidationScriptsPartial.cshtml" />
-      <File FileName="ShopApp/Views/Shared/_UserSummaryPartial.cshtml" />
-      <File FileName="ShopApp/Controllers/CartController.cs" />
+      <File FileName="ShopApp/Views/Shared/_SeafreshLayout.cshtml" Line="29" Column="97" />
+      <File FileName="ShopApp/Controllers/SeafreshStoreController.cs" Line="29" Column="1" />
+      <File FileName="ShopApp/Views/SeafreshStore/index.cshtml" Line="32" Column="31" />
+      <File FileName="ShopApp/Controllers/BaseController.cs" Line="48" Column="8" />
+      <File FileName="ShopApp/Common/EncryptionHelper.cs" Line="12" Column="6" />
+      <File FileName="ShopApp/Controllers/CartController.cs" Line="1" Column="1" />
       <File FileName="ShopApp/Controllers/SeafreshCartController.cs" Line="27" Column="1" />
-      <File FileName="ShopApp/wwwroot/css/Seafresh.css" />
-      <File FileName="ShopApp/Controllers/SeafreshHomeController.cs" />
-      <File FileName="ShopApp/Controllers/BaseController.cs" />
-      <File FileName="ShopApp/Controllers/FileController.cs" />
-      <File FileName="ShopApp/Controllers/HomeController.cs" />
-      <File FileName="ShopApp/Controllers/ProductController.cs" />
+      <File FileName="ShopApp/Controllers/SeafreshHomeController.cs" Line="27" Column="1" />
+      <File FileName="ShopApp/Controllers/HomeController.cs" Line="29" Column="12" />
+      <File FileName="ShopApp/Views/Shared/_SeafreshHeaderPartial.cshtml" Line="41" Column="91" />
+      <File FileName="ShopApp/Views/Shared/_Layout.cshtml" Line="1" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="ShopApp" expanded="True">
             <Node name="ShopApp" expanded="True">
-              <Node name="Controllers" expanded="True">
-                <Node name="SeafreshCartController.cs" selected="True" />
-              </Node>
+              <Node name="Common" expanded="True" />
+              <Node name="Controllers" expanded="True" />
               <Node name="Data" expanded="True" />
               <Node name="Models" expanded="True" />
               <Node name="Views" expanded="True">
@@ -29,7 +28,9 @@
                 <Node name="Product" expanded="True" />
                 <Node name="SeafreshCart" expanded="True" />
                 <Node name="SeafreshHome" expanded="True" />
-                <Node name="SeafreshStore" expanded="True" />
+                <Node name="SeafreshStore" expanded="True">
+                  <Node name="index.cshtml" selected="True" />
+                </Node>
                 <Node name="Shared" expanded="True" />
               </Node>
               <Node name="wwwroot" expanded="True">
@@ -47,7 +48,7 @@
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore>
-      <Breakpoint file="/Users/kwhare/Desktop/Dev/Team-2 Repo/ShopApp/ShopApp/Views/Home/Index.cshtml" relfile="ShopApp/Views/Home/Index.cshtml" line="16" column="1" />
+      <Breakpoint enabled="false" file="/Users/kwhare/Desktop/Dev/Team-2 Repo/ShopApp/ShopApp/Views/Home/Index.cshtml" relfile="ShopApp/Views/Home/Index.cshtml" line="16" column="1" />
     </BreakpointStore>
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MultiItemStartupConfigurations />

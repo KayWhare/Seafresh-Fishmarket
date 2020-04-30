@@ -25,12 +25,6 @@ namespace ShopApp.Controllers
             return View("Cart");
         }
 
-        //[HttpGet]
-        //public IActionResult Index()
-        //{
-
-        //    return View("Cart");
-        //}
 
     }
 }

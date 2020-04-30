@@ -1,4 +1,5 @@
-﻿<div class="container">
+﻿
+<div class="container">
     <div class="header" id="nav">
         <div id='hamburger'>
             <input type="checkbox" class="openSidebarMenu" id="openSidebarMenu">
@@ -36,12 +37,12 @@
             <li>
                 <h4>Product Categories</h4>
             </li>
-            <li><a href="shop.html">Whole</a></li>
-            <li><a href="shop.html">Fillet</a></li>
-            <li><a href="shop.html">Crustaceans</a></li>
-            <li><a href="shop.html">Shellfish</a></li>
-            <li><a href="shop.html">Caviar</a></li>
-            <li><a href="shop.html">Sushi</a></li>
+            <li><a href="@Url.Action("Category", "SeafreshStore",new { category = "Wholefish" })">Whole</a></li>
+            <li><a href="@Url.Action("Category", "SeafreshStore",new { category = "Fillets" })">Fillet</a></li>
+            <li><a href="@Url.Action("Category", "SeafreshStore",new { category = "Crustaceans" })">Crustaceans</a></li>
+            <li><a href="@Url.Action("Category", "SeafreshStore",new { category = "Shellfish" })">Shellfish</a></li>
+            <li><a href="@Url.Action("Category", "SeafreshStore",new { category = "Caviar" })">Caviar</a></li>
+            <li><a href="@Url.Action("Category", "SeafreshStore",new { category = "Sushi" })">Sushi</a></li>
 
         </ul>
 
