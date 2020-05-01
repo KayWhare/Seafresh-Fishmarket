@@ -340,7 +340,7 @@ body {
     }
 
         .productMenu a:hover {
-            transform: rotate(-10deg);
+            transform: rotate(-5deg);
             transition: all 0.3s;
         }
 
@@ -896,7 +896,8 @@ input[type=text] {
 
     .shop-item:hover {
         box-shadow: 0px 0px 15px 1px grey;
-        transition: all 0.7s;
+        transform: translateY(-3px);
+        transition: transform 0.2s, box-shadow 0.7s;
     }
 
 .special-tag {

@@ -1,35 +1,73 @@
 ﻿@using ShopApp.Models;
 
 @{
-   Layout = "_SeafreshLayout";
+    Layout = "_SeafreshLayout";
 
     var products = (List<Product>)ViewData["Products"];
+    var title = products[0].Category;
+    var quantity = 1;
+
  }
 
 
 <div class="shop-container">
 
-    <h1>@products[0].Category</h1>
+    <h1>@title</h1>
 
     <div class="product-gallery">
 
         @foreach (var p in products)
         {
-            var quantity = 1;
+            if (p.DiscountPrice != null)
+            {
 
-            <div class="shop-item">
+                <form action="" method="post" class="shop-item">
 
-                <span class="special-tag"></span>
+                    <span class="special-tag">Special</span>
 
-                <img class="shop-item-image" src="/images/Snapper-Medium-Whole.jpg" alt="" />
+                    <img class="shop-item-image" src="@p.ImagePath" alt="@p.Title" />
 
-                <h3>@p.Title</h3>
+                    <h3>@p.Title</h3>
 
-                <p class="shop-item-product-description">
-                    @p.Description
-                </p>
+                    <p class="shop-item-product-description">
+                        @p.Description
+                    </p>
 
-                <form action="" method="post">
+
+                    <div class="shop-item-quantity">
+                        <input type="hidden" name="ProductID" value="@p.Id">
+                        <button class="minus-btn" type="button" name="button">
+                            <i class="far fa-minus-square"></i>
+                        </button>
+                        <input class="quantity-input" type="number" name="Quantitiy" value="@quantity">
+                        <button class="plus-btn" type="button" name="button">
+                            <i class="far fa-plus-square"></i>
+                        </button>
+                    </div>
+
+                    <p>Price: $<span class="shop-item-price">@p.DiscountPrice</span></p>
+
+                    <div class="add-cart-btn flex-center-style">
+                        <input type="submit" value="ADD TO CART">
+                    </div>
+                </form>
+            }
+            else
+            {
+
+                <form action="" method="post" class="shop-item">
+
+                    <span class="special-tag"></span>
+
+                    <img class="shop-item-image" src="@p.ImagePath" alt="@p.Title" />
+
+                    <h3>@p.Title</h3>
+
+                    <p class="shop-item-product-description">
+                        @p.Description
+                    </p>
+
+
                     <div class="shop-item-quantity">
                         <input type="hidden" name="ProductID" value="@p.Id">
                         <button class="minus-btn" type="button" name="button">
@@ -47,10 +85,10 @@
                         <input type="submit" value="ADD TO CART">
                     </div>
                 </form>
-            </div>
+            }
+
 
         }
 
-
-
     </div>
+</div>

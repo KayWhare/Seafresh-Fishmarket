@@ -1,17 +1,17 @@
 ﻿<Properties StartupConfiguration="{45BDC66C-EABA-4D30-AE32-891E6E68198C}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="ShopApp/Views/SeafreshStore/index.cshtml">
+  <MonoDevelop.Ide.Workbench ActiveDocument="ShopApp/Views/SeafreshHome/Index.cshtml">
     <Files>
-      <File FileName="ShopApp/Views/Shared/_SeafreshLayout.cshtml" Line="29" Column="97" />
-      <File FileName="ShopApp/Controllers/SeafreshStoreController.cs" Line="29" Column="1" />
-      <File FileName="ShopApp/Views/SeafreshStore/index.cshtml" Line="32" Column="31" />
-      <File FileName="ShopApp/Controllers/BaseController.cs" Line="48" Column="8" />
-      <File FileName="ShopApp/Common/EncryptionHelper.cs" Line="12" Column="6" />
-      <File FileName="ShopApp/Controllers/CartController.cs" Line="1" Column="1" />
-      <File FileName="ShopApp/Controllers/SeafreshCartController.cs" Line="27" Column="1" />
-      <File FileName="ShopApp/Controllers/SeafreshHomeController.cs" Line="27" Column="1" />
-      <File FileName="ShopApp/Controllers/HomeController.cs" Line="29" Column="12" />
-      <File FileName="ShopApp/Views/Shared/_SeafreshHeaderPartial.cshtml" Line="41" Column="91" />
+      <File FileName="ShopApp/Controllers/SeafreshStoreController.cs" Line="28" Column="10" />
+      <File FileName="ShopApp/Views/SeafreshStore/index.cshtml" Line="12" Column="30" />
+      <File FileName="ShopApp/Controllers/BaseController.cs" />
+      <File FileName="ShopApp/Common/EncryptionHelper.cs" />
+      <File FileName="ShopApp/Controllers/CartController.cs" />
+      <File FileName="ShopApp/wwwroot/css/Seafresh.css" Line="343" Column="33" />
       <File FileName="ShopApp/Views/Shared/_Layout.cshtml" Line="1" Column="1" />
+      <File FileName="ShopApp/Views/Shared/_SeafreshLayout.cshtml" Line="1" Column="1" />
+      <File FileName="ShopApp/Views/Shared/_SeafreshHeaderPartial.cshtml" Line="98" Column="15" />
+      <File FileName="ShopApp/Controllers/SeafreshHomeController.cs" Line="43" Column="99" />
+      <File FileName="ShopApp/Views/SeafreshHome/Index.cshtml" Line="7" Column="56" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -27,10 +27,10 @@
                 <Node name="Home" expanded="True" />
                 <Node name="Product" expanded="True" />
                 <Node name="SeafreshCart" expanded="True" />
-                <Node name="SeafreshHome" expanded="True" />
-                <Node name="SeafreshStore" expanded="True">
-                  <Node name="index.cshtml" selected="True" />
+                <Node name="SeafreshHome" expanded="True">
+                  <Node name="Index.cshtml" selected="True" />
                 </Node>
+                <Node name="SeafreshStore" expanded="True" />
                 <Node name="Shared" expanded="True" />
               </Node>
               <Node name="wwwroot" expanded="True">

@@ -40,7 +40,7 @@ namespace ShopApp.Controllers
             }
 
 
-            ViewData["Products"] = _context.Products.ToList();
+            ViewData["Specials"] = _context.Products.Where(p => p.DiscountPrice != null).ToList();
 
             return View();
         }
