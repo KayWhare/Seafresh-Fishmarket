@@ -5,8 +5,11 @@
     Layout = "_SeafreshLayout";
 
     var products = (List<Product>)ViewData["Specials"];
+    var cartItems = (List<CartItem>)ViewData["CartItems"];
+    int itemQuantity = 1;
 }
 
+    <div>@Html.Partial("_QuickviewCartPartial")</div>
 
 <h3 id="specials">Weekly Specials</h3>
 
@@ -22,11 +25,13 @@
     <div class="swiper-container">
         <div class="swiper-wrapper">
 
-            @foreach (var p in products){
-
+            @foreach (var p in products)
+            {
+                var itemTotal = p.DiscountPrice * itemQuantity;
 
                 <div class="swiper-slide">
-                    <form action="" method="get" class="shop-item ">
+
+                    <form action="/SeafreshStore/" method="post" class="shop-item">
 
                         <span class="special-tag">Special</span>
 
@@ -38,32 +43,34 @@
                             @p.Description
                         </p>
 
+                        <input type="hidden" name="itemPrice" value="@p.DiscountPrice">
 
                         <div class="shop-item-quantity">
-                            <button class="minus-btn" type="button" name="button">
+                            <input type="hidden" name="ProductID" value="@p.Id">
+                            <button onclick="minusbtn(event)" class="minus-btn" type="button" name="button">
                                 <i class="far fa-minus-square"></i>
                             </button>
-                            <input class="quantity-input" type="number" name="quantitiy-btn" min="1">
-                            <button class="plus-btn" type="button" name="button">
+                            <input class="quantity-input" type="number" name="Quantity" value="@itemQuantity">
+                            <button onclick="plusbtn(event)" class="plus-btn" type="button" name="button">
                                 <i class="far fa-plus-square"></i>
                             </button>
                         </div>
 
-                        <p>Price: $<span class="shop-item-price">@p.DiscountPrice</span></p>
+                        <p>Price: $<span class="shop-item-price">@itemTotal</span></p>
 
                         <div class="add-cart-btn flex-center-style">
-                            <input type="submit" value="ADD TO CART">
+                                <input class="addToCart" type="submit" value="ADD TO CART">
                         </div>
                     </form>
                 </div>
 
-                }
+            }
 
 
 
-            </div>
         </div>
     </div>
+</div>
 
 
 <div class="img-email">

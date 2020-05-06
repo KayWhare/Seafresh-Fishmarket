@@ -302,3 +302,6 @@
 /Users/kwhare/Desktop/Dev/Team-2 Repo/ShopApp/ShopApp/obj/Debug/netcoreapp3.1/ShopApp.dll
 /Users/kwhare/Desktop/Dev/Team-2 Repo/ShopApp/ShopApp/obj/Debug/netcoreapp3.1/ShopApp.pdb
 /Users/kwhare/Desktop/Dev/Team-2 Repo/ShopApp/ShopApp/obj/Debug/netcoreapp3.1/ShopApp.genruntimeconfig.cache
+/Users/kwhare/Desktop/Dev/Team-2 Repo/ShopApp/ShopApp/obj/Debug/netcoreapp3.1/Razor/Views/Shared/_QuickviewCartPartial.cshtml.g.cs
+/Users/kwhare/Desktop/Dev/Team-2 Repo/ShopApp/ShopApp/obj/Debug/netcoreapp3.1/Razor/Views/Shared/_BannerPartial.cshtml.g.cs
+/Users/kwhare/Desktop/Dev/Team-2 Repo/ShopApp/ShopApp/obj/Debug/netcoreapp3.1/Razor/Views/Shared/_CartItemPartial.cshtml.g.cs

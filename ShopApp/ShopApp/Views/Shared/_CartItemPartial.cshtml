@@ -1,0 +1,96 @@
+﻿@using ShopApp.Models;
+
+
+@{
+    var cartItems = (List<CartItem>)ViewData["CartItems"];
+    decimal totalAmount = cartItems.Sum(item => item.Quantity*(item.Product.DiscountPrice ?? item.Product.Price));
+}
+
+
+    <div class="cart-title">
+        Shopping Cart
+    </div>
+
+    @foreach (var item in cartItems)
+    {
+        if (item.Product.DiscountPrice != null)
+        {
+            var itemTotal = item.Quantity * (item.Product.DiscountPrice ?? item.Product.Price);
+
+<form action="/SeafreshCart/Delete" method="post" class="cart-item">
+
+    <input type="hidden" name="ProductID" value="@item.ProductId">
+
+
+    <div class="cart-item-button-wrapper">
+        <span onclick="deleteItem(event)" class="cart-item-delete-btn"><i class="fas fa-times-circle"></i></span>
+    </div>
+
+    <div class="cart-item-image">
+        <img src="@item.Product.ImagePath" alt="@item.Product.Title">
+    </div>
+
+    <div class="cart-item-description">
+        <span class="item-category">@item.Product.Title</span>
+    </div>
+
+    <input type="hidden" name="itemPrice" value="@item.Product.DiscountPrice">
+
+    <div class="cart-item-quantity">
+        <button onclick="minusbtn(event)" class="minus-btn" type="button" name="button">
+            <i class="far fa-minus-square"></i>
+        </button>
+        <input type="number" name="Quantity" value="@item.Quantity">
+        <button onclick="plusbtn(event)" class="plus-btn" type="button" name="button">
+            <i class="far fa-plus-square"></i>
+        </button>
+    </div>
+
+    <p>$<span class="cart-item-price">@itemTotal</span></p>
+
+</form>
+        }
+        else
+        {
+            var itemTotal = item.Quantity * item.Product.Price;
+
+            <form action="/SeafreshCart/Delete" method="post" class="cart-item">
+
+                <input type="hidden" name="ProductID" value="@item.ProductId">
+
+                <div class="cart-item-button-wrapper">
+                    <span onclick="deleteItem(event)" class="cart-item-delete-btn"><i class="fas fa-times-circle"></i></span>
+                </div>
+
+                <div class="cart-item-image">
+                    <img src="@item.Product.ImagePath" alt="@item.Product.Title">
+                </div>
+
+                <div class="cart-item-description">
+                    <span class="item-category">@item.Product.Title</span>
+                </div>
+
+                <input type="hidden" name="itemPrice" value="@item.Product.Price">
+
+                <div class="cart-item-quantity">
+                    <button onclick="minusbtn(event)" class="minus-btn" type="button" name="button">
+                        <i class="far fa-minus-square"></i>
+                    </button>
+                    <input type="number" name="Quantity" value="@item.Quantity">
+                    <button onclick="plusbtn(event)" class="plus-btn" type="button" name="button">
+                        <i class="far fa-plus-square"></i>
+                    </button>
+                </div>
+
+                <p>$<span class="cart-item-price">@itemTotal</span></p>
+
+            </form>
+
+        }
+    }
+
+    <div class="total-section">
+        <span>Total</span>
+        <span id="total-price">@totalAmount</span>
+    </div>
+

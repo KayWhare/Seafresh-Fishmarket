@@ -7,50 +7,24 @@ window.addEventListener("scroll", function (event) {
 
     if (window.pageYOffset > 0) {
         headerDiv.style.backgroundColor = "rgba(0, 0, 0, 0.8)";
+        headerDiv.style.height = "60px";
         headerDiv.children[0].style.color = 'white';
         headerDiv.children[3].style.color = 'white';
         headerDiv.children[4].style.color = 'white';
         for (i = 0; i < spinner.length; i++) {
             spinner[i].style.backgroundColor = 'white'
         };
-        // logo.src = 'images/newlogoWhite.png';
     } else {
         headerDiv.style.backgroundColor = "rgba(255, 255, 255, 0.0)";
+        headerDiv.style.height = "80px";
         headerDiv.children[0].style.color = 'black';
         headerDiv.children[3].style.color = 'black';
         headerDiv.children[4].style.color = 'black';
         for (i = 0; i < spinner.length; i++) {
             spinner[i].style.backgroundColor = 'black'
         };
-        // logo.src = 'images/newlogoDark.png';
     }
 });
-
-
-// -----------TOGGLE FOR SIDEMENU & Cart-Quickview-------------------
-
-var checkbox = document.getElementById('openSidebarMenu');
-
-checkbox.addEventListener('click', function () {
-    let sidebarMenu = document.getElementById('sidebarMenu');
-
-    if (checkbox.checked == true) {
-        return sidebarMenu.style.transform = 'translateX(0)';
-    } else {
-        sidebarMenu.style.transform = 'translateX(-250px)';
-    }
-});
-
-var cartLink = document.getElementById("cartLink");
-let cartQuickview = document.querySelector('.cart-quickview');
-
-cartLink.addEventListener('mouseover', () => {
-    cartQuickview.style.transform = "translateX(-375px)";
-});
-cartLink.addEventListener('mouseout', () => {
-    cartQuickview.style.transform = "translateX(0px)";
-});
-
 
 //-----------------------Searchbar Toggle------------------
 
@@ -111,53 +85,174 @@ var swiper = new Swiper('.swiper-container', {
 
 // ----------- item button functionality ----------
 
+var cartTotals = document.querySelectorAll('.cart-item-price');
+let overalltotal = document.querySelector("#total-price");
+
+
+function totalTally() {
+    var tally = 0;
+    cartTotals.forEach(total => {
+        tally += parseFloat(total.innerHTML);
+    });
+    overalltotal.innerHTML = tally.toFixed(2);
+};
+
+
 let addButtons = document.querySelectorAll('.plus-btn');
 let minusButtons = document.querySelectorAll('.minus-btn');
+let itemForms = document.querySelectorAll(".shop-item");
 let quantityInput = document.querySelectorAll(".quantity-input");
-let cartTotal = document.getElementById('total-price');
-let cartItemCollection = document.querySelectorAll('.cart-item-price');
-let removeButtons = document.querySelectorAll('.cart-item-delete-btn');
-
 
 
 quantityInput.forEach(i => {
-    i.defaultValue = "1";
     i.setAttribute('readonly', true)
 });
 
 
-addButtons.forEach(b => {
-    b.addEventListener('click', () => {
-        let itemQuantity = b.previousElementSibling.value;
-        let intValue = parseInt(itemQuantity, 10);
-        let totalPrice = b.parentElement.nextElementSibling.firstElementChild;
-        let intPrice = parseFloat(totalPrice.innerHTML);
+function plusbtn(e) {
+    var b = e.currentTarget;
+    let itemQuantity = b.previousElementSibling;
+    let newIntQuantity = (parseInt((itemQuantity.value), 10)) + 1;
+    itemQuantity.value = newIntQuantity;
+
+    let totalPrice = b.parentElement.nextElementSibling.firstElementChild;
+    let itemPrice = b.parentElement.previousElementSibling.value;
+    totalPrice.innerHTML = (newIntQuantity * (parseFloat(itemPrice))).toFixed(2);
+    totalTally();
+}
+
+function minusbtn(e) {
+    var b = e.currentTarget;
+    var itemQuantity = b.nextElementSibling;
+    let newIntQuantity = (parseInt((itemQuantity.value), 10)) - 1;
+    if (newIntQuantity < 1) {
+        newIntQuantity = 1;
+    } else {
+        itemQuantity.value = newIntQuantity;
+    };
+
+    let totalPrice = b.parentElement.nextElementSibling.firstElementChild;
+    let itemPrice = b.parentElement.previousElementSibling.value;
+    totalPrice.innerHTML = (newIntQuantity * (parseFloat(itemPrice))).toFixed(2);
+    totalTally();
+}
 
 
-        itemQuantity = intValue + 1;
-        b.previousElementSibling.value = itemQuantity;
-        intPrice = (intPrice * itemQuantity) / (itemQuantity - 1);
-        totalPrice.innerHTML = intPrice.toFixed(2);
 
+//=================AddtoCart Posts with FetchAPI ================
+
+let addToCartButtons = document.querySelectorAll(".addToCart");
+let quickviewParent = document.querySelector('.cart-quickview').parentElement;
+
+
+addToCartButtons.forEach(button => {
+    button.addEventListener('click', (e) => {
+        e.preventDefault();
+        var form = e.currentTarget.closest('form');
+        var formData = new URLSearchParams(new FormData(form));
+        fetch('/SeafreshStore/', {
+            body: formData,
+            method: "post",
+        }).then(() => {
+            fetch('/SeafreshStore/Quickview', {
+                body: null,
+                method: "get"
+            }).then(res => {
+                return res.text();
+            }).then(res => {
+                quickviewParent.innerHTML = res;
+                quickviewParent.firstElementChild.style.transform = "translateX(-385px)";
+                setTimeout(() => {
+                    quickviewParent.firstElementChild.style.transform = "translateX(0px)";
+                }, 3000);
+            }).catch(err => {
+                console.warn('Something went wrong.', err);
+            });
+        form.reset();
+        })
     })
 });
-minusButtons.forEach(b => {
-    b.addEventListener('click', () => {
-        var itemQuantity = b.nextElementSibling.value;
-        var intValue = parseInt(itemQuantity, 10);
-        let totalPrice = b.parentElement.nextElementSibling.firstElementChild;
-        var intPrice = parseFloat(totalPrice.innerHTML);
 
-        if (itemQuantity <= 1) {
-            b.nextElementSibling.value = 1;
-        } else {
-            intPrice = (intPrice * (itemQuantity - 1)) / itemQuantity;
-            totalPrice.innerHTML = intPrice.toFixed(2);
+//=================DeleteItem with Fetch================
+let ShoppingCartContainer = document.querySelector(".shopping-cart");
 
-            itemQuantity -= 1;
-            b.nextElementSibling.value = itemQuantity;
 
-        }
+function deleteItem(e) {
+
+    var form = e.currentTarget.closest('form');
+    var formData = new URLSearchParams(new FormData(form));
+    fetch('/SeafreshCart/Delete', {
+        body: formData,
+        method: "post",
+    }).then(() => {
+        fetch('/SeafreshCart/UpdateCartView', {
+            body: null,
+            method: "get"
+        }).then(res => {
+            return res.text();
+        }).then(res => {
+            ShoppingCartContainer.innerHTML = res;
+        }).catch(err => {
+            console.warn('Something went wrong.', err);
+        }).then(() => {
+            fetch('/SeafreshStore/Quickview', {
+                body: null,
+                method: "get"
+            }).then(res => {
+                return res.text();
+            }).then(res => {
+                quickviewParent.innerHTML = res;
+            })
+        })
     })
+};
+
+//function refreshCartTotal(e) {
+//    var form = e.currentTarget.closest('form');
+//    var formData = new URLSearchParams(new FormData(form));
+//    fetch('/SeafreshCart/', {
+//        body: formData,
+//        method: "post",
+//    }).then(() => {
+//        fetch('/SeafreshCart/UpdateCartView', {
+//            body: null,
+//            method: "get"
+//        }).then(res => {
+//            return res.text();
+//        }).then(res => {
+//            ShoppingCartContainer.innerHTML = res;
+//        }).catch(err => {
+//            console.warn('Something went wrong.', err);
+//        });
+//    })
+//}
+
+
+
+
+// -----------TOGGLE FOR SIDEMENU & Cart-Quickview-------------------
+
+var checkbox = document.getElementById('openSidebarMenu');
+
+checkbox.addEventListener('click', function () {
+    let sidebarMenu = document.getElementById('sidebarMenu');
+
+    if (checkbox.checked == true) {
+        return sidebarMenu.style.transform = 'translateX(0)';
+    } else {
+        sidebarMenu.style.transform = 'translateX(-250px)';
+    }
 });
+
+var cartLink = document.getElementById("cartLink");
+
+cartLink.addEventListener('mouseover', () => {
+    quickviewParent.firstElementChild.style.transform = "translateX(-385px)";
+    setTimeout(() => {
+        quickviewParent.firstElementChild.style.transform = "translateX(0px)";
+    }, 3000);
+});
+
+
+
 

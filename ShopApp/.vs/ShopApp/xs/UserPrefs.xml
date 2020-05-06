@@ -1,17 +1,19 @@
 ﻿<Properties StartupConfiguration="{45BDC66C-EABA-4D30-AE32-891E6E68198C}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="ShopApp/Views/SeafreshHome/Index.cshtml">
+  <MonoDevelop.Ide.Workbench ActiveDocument="ShopApp/wwwroot/css/Seafresh.css">
     <Files>
-      <File FileName="ShopApp/Controllers/SeafreshStoreController.cs" Line="28" Column="10" />
-      <File FileName="ShopApp/Views/SeafreshStore/index.cshtml" Line="12" Column="30" />
-      <File FileName="ShopApp/Controllers/BaseController.cs" />
-      <File FileName="ShopApp/Common/EncryptionHelper.cs" />
-      <File FileName="ShopApp/Controllers/CartController.cs" />
-      <File FileName="ShopApp/wwwroot/css/Seafresh.css" Line="343" Column="33" />
-      <File FileName="ShopApp/Views/Shared/_Layout.cshtml" Line="1" Column="1" />
-      <File FileName="ShopApp/Views/Shared/_SeafreshLayout.cshtml" Line="1" Column="1" />
-      <File FileName="ShopApp/Views/Shared/_SeafreshHeaderPartial.cshtml" Line="98" Column="15" />
-      <File FileName="ShopApp/Controllers/SeafreshHomeController.cs" Line="43" Column="99" />
-      <File FileName="ShopApp/Views/SeafreshHome/Index.cshtml" Line="7" Column="56" />
+      <File FileName="ShopApp/Controllers/SeafreshStoreController.cs" Line="138" Column="10" />
+      <File FileName="ShopApp/Controllers/SeafreshCartController.cs" Line="164" Column="1" />
+      <File FileName="ShopApp/Controllers/HomeController.cs" Line="176" Column="57" />
+      <File FileName="ShopApp/wwwroot/js/Seafresh.js" Line="89" Column="59" />
+      <File FileName="ShopApp/wwwroot/css/Seafresh.css" Line="294" Column="18" />
+      <File FileName="ShopApp/Program.cs" Line="16" Column="1" />
+      <File FileName="ShopApp/Data/ShopAppContext.cs" Line="1" Column="1" />
+      <File FileName="ShopApp/Startup.cs" Line="63" Column="10" />
+      <File FileName="ShopApp/Views/SeafreshCart/Cart.cshtml" Line="10" Column="1" NotebookId="1" />
+      <File FileName="ShopApp/Views/SeafreshStore/index.cshtml" Line="63" Column="33" NotebookId="1" />
+      <File FileName="ShopApp/Views/SeafreshHome/Index.cshtml" Line="25" Column="35" NotebookId="1" />
+      <File FileName="ShopApp/Views/Shared/_CartItemPartial.cshtml" Line="94" Column="51" NotebookId="1" />
+      <File FileName="ShopApp/Views/Shared/_QuickviewCartPartial.cshtml" Line="88" Column="39" NotebookId="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -27,19 +29,23 @@
                 <Node name="Home" expanded="True" />
                 <Node name="Product" expanded="True" />
                 <Node name="SeafreshCart" expanded="True" />
-                <Node name="SeafreshHome" expanded="True">
-                  <Node name="Index.cshtml" selected="True" />
-                </Node>
+                <Node name="SeafreshHome" expanded="True" />
                 <Node name="SeafreshStore" expanded="True" />
                 <Node name="Shared" expanded="True" />
               </Node>
               <Node name="wwwroot" expanded="True">
-                <Node name="css" expanded="True" />
+                <Node name="css" expanded="True">
+                  <Node name="Seafresh.css" selected="True" />
+                </Node>
                 <Node name="js" expanded="True" />
               </Node>
+              <Node name="appsettings.json" expanded="True" />
             </Node>
           </Node>
         </State>
+      </Pad>
+      <Pad Id="MonoDevelop.Debugger.WatchPad">
+        <State />
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
@@ -47,9 +53,7 @@
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
-    <BreakpointStore>
-      <Breakpoint enabled="false" file="/Users/kwhare/Desktop/Dev/Team-2 Repo/ShopApp/ShopApp/Views/Home/Index.cshtml" relfile="ShopApp/Views/Home/Index.cshtml" line="16" column="1" />
-    </BreakpointStore>
+    <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MultiItemStartupConfigurations />
 </Properties>

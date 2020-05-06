@@ -15,7 +15,6 @@ body {
 
 .container {
     margin: 0 auto;
-    max-width: 1900px;
 }
 
 .header {
@@ -137,10 +136,15 @@ body {
     position: relative;
     top: 0px;
     width: 100%;
+    max-width: 1800px;
     height: 500px;
-    background: url("/images/Crayfish.jpg")no-repeat center fixed;
-    background-position-y: -170px;
+    background-image: url("/images/Crayfish.jpg");
+    background-repeat: no-repeat;
+    background-position: center -260px;
+    background-attachment: fixed;
     background-size: cover;
+
+
 }
 
 .banner {
@@ -245,7 +249,7 @@ body {
     top: 0;
     left: 0;
     width: 250px;
-    margin-top: 80px;
+    margin-top: 60px;
     transform: translateX(-250px);
     transition: transform 250ms ease-in-out;
     background-color: rgba(0, 0, 0, 0.8);
@@ -287,35 +291,9 @@ body {
 
 .main-content {
     margin: 0 auto;
+    max-width: 1800px;
 }
 
-
-/* ----------PRODUCT MENU----------- */
-/* .productMenu {
-    display: none;
-    width: 100%;
-    justify-content: space-evenly;
-    border-bottom: 2px solid lightgray;
-}
-
-.productMenu a {
-    
-    color: black;
-    height: 60px;
-    width: 150px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-decoration: none;
-}
-
-.productMenu a:hover {
-
-}
-
-.productMenu a img {
-    padding: 10px;
-} */
 .productMenu {
     display: none;
     width: 100%;
@@ -499,8 +477,8 @@ input[type=text] {
     position: fixed;
     background-color: rgb(255, 255, 255);
     border-radius: 3px;
-    top: 80px;
-    right: -375px;
+    top: 60px;
+    right: -385px;
     width: 375px;
     z-index: 100000;
     box-shadow: 0px 5px 10px rgb(80, 80, 80);
@@ -599,8 +577,9 @@ input[type=text] {
 }
 
 .cart-item-delete-btn {
-    font-size: 18px;
+    font-size: 22px;
     Cursor: pointer;
+    text-shadow: 0px 2px 5px lightgrey;
 }
 
     .cart-item-delete-btn:hover {
@@ -614,8 +593,7 @@ input[type=text] {
 }
 
     .cart-item-image > img {
-        width: 80%;
-        height: 100%;
+        width: 90%;
         border-radius: 6px;
         display: none;
     }
@@ -868,7 +846,7 @@ input[type=text] {
 
 .shop-container > h1 {
     text-align: center;
-    margin: 40px;
+    margin-top: 30px;
     font-size: 50px;
     font-family: 'Baloo Tamma 2', cursive;
 }
@@ -1076,7 +1054,7 @@ input[type=text] {
     }
 
         .cart-item-image > img {
-            width: 90%;
+            width: 60%;
             border-radius: 4px;
             display: block;
         }

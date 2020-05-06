@@ -1,0 +1,30 @@
+﻿@using ShopApp.Models;
+
+@{
+    var products = (List<Product>)ViewData["Products"];
+    string bgSource = "/images/Crayfish.jpg";
+
+    if(products == null)
+    {
+        bgSource = "/images/Crayfish.jpg";
+    }
+    else if (products.First().Category == products.Last().Category)
+    {
+        bgSource = products.First().ImagePath;
+    }
+    else
+    {
+        bgSource = "/images/Crayfish.jpg";
+    };
+
+}
+
+
+<div class="banner-outer" style="background-image: url('@bgSource')">
+    <div class="banner">
+        <img src="~/images/newlogoWhite.png" id="logo" alt="logo">
+
+        <h4>Now delivering</h4>
+        <input type="button" value="Details">
+    </div>
+</div>
